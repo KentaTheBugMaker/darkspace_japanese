@@ -5,7 +5,7 @@
 ######## Menu Start
 
 ds_button_tt_manpower: "労働力"
-ds_button_tt_manpower_desc: "労働力 Nomad の £pop£ §YPops§!. Their upkeep depends on their §Yquantity§! and our §Yauthority§!. The §HMonthly Growth§! is §G+5§!, but it can be increased with §YTechnologies§!, §YTraditions§! and §YAscension Perks§!. \n\nThe growth will §Rstop§!, if Nomad £housing£§HHousing§! is lower than §Y1§!.\nGrowth is temporarily §Rreduced§! while being §Rat war§! or after a §Rlost war§!§ . \n\nEvery populated planet has the §Ydecision§! §BRecruitment§! to turn £pop£ into Manpower. \n\n£opinion£ §EAll common technologies that improve £housing£Housing or £mod_pop_growth_speed£Pop Growth unlock also more §YNomad§!£housing£§YHousing§! or §YMonthly Growth (Manpower)§!."
+ds_button_tt_manpower_desc: "労働力 Nomad の £pop£ §YPops§!. Their upkeep depends on their §Yquantity§! and our §Yauthority§!. The §H月間成長数§! is §G+5§!, but it can be increased with §YTechnologies§!, §YTraditions§! and §YAscension Perks§!. \n\nThe growth will §Rstop§!, if Nomad £housing£§HHousing§! is lower than §Y1§!.\nGrowth is temporarily §Rreduced§! while being §Rat war§! or after a §Rlost war§!§ . \n\nEvery populated planet has the §Ydecision§! §BRecruitment§! to turn £pop£ into Manpower. \n\n£opinion£ §EAll common technologies that improve £housing£Housing or £mod_pop_growth_speed£Pop Growth unlock also more §YNomad§!£housing£§YHousing§! or §YMonthly Growth (Manpower)§!."
 ds_button_tt_production: "生産"
 ds_button_tt_production_desc: "§Y収入 & 維持費§! is shown in the §HGovernment Window§! as §Ymodifier§! and also visible in the §H流浪の民の管理§!. \n\n§RResource Deficits§! add a §Rmodifier§! to our empire for §Y30 days§! or longer, if the situation doesn't improve. \n\nNew §HRepeatable Technologies§! will show up, which increase our basic income. \n\n£opinion£ §EProduction & Upkeep Values for §Y1§! allocated Manpower: \n1*£energy£ §Hproduces§! §G+10§!£energy£ \n1*£minerals£ §Hproduces§! §G+6§!£minerals£ §R-1§!£energy£ \n1*£alloys£ §Hproduces§! §G+6§!£alloys£ §R-5§!£minerals£ \n1*£unity£ §Hproduces§! §G+8§!£unity£ §R-2§!£energy£ \n1*£ds_research£ §Hproduces§! §G+18§!£ds_research£ §R-5§!£energy£ \n1*£food£ §Hproduces§! §G+7§!£food£ §R-1§!£energy£ \n1*£consumer_goods£ §Hproduces§! §G+7§!£consumer_goods£ §R-3§!£minerals£ \n1*£volatile_motes£/£exotic_gases£/£rare_crystals£ §Hproduces§! §G+3§! §R-9§! £minerals£§!"
 ds_button_tt_ships: "船"
@@ -57,9 +57,9 @@ dsN.3000.desc: "A deficit of a resource adds us the §H$ds_nomads_deficit$§! mo
 
 # Nomad Perks
 has_ds_nomad_has_prev_perk: "§RRequires the previous Module.§!"
-ds_nomad_menu_perks_res: "§HCost:§! £alloys£§Y500§! £unity£§Y1000§!"
-ds_nomad_menu_perks_res_2: "§HCost:§! £alloys£§Y3500§! £unity£§Y3500§!"
-ds_nomad_menu_perks_res_3: "§HCost:§! £alloys£§Y3500§! £unity£§Y6500§!"
+ds_nomad_menu_perks_res: "§Hコスト:§! £alloys£§Y500§! £unity£§Y1000§!"
+ds_nomad_menu_perks_res_2: "§Hコスト:§! £alloys£§Y3500§! £unity£§Y3500§!"
+ds_nomad_menu_perks_res_3: "§Hコスト:§! £alloys£§Y3500§! £unity£§Y6500§!"
 ds_nomad_menu_colony_1: "£mod_country_admin_cap_add£ 1"
 ds_nomad_menu_colony_2: "£mod_country_admin_cap_add£ 2"
 ds_nomad_menu_colony_3: "£mod_country_admin_cap_add£ 3"
@@ -76,9 +76,9 @@ ds_nomad_menu_colony_6_desc: "$ds_nomad_menu_perks_res_3$ \nManpower Growth: §G
 ds_nomad_menu_colony_counter: "§HColony-Modules§!"
 
 # Variables
-ds_nomads_vm_tech: "§RRequires the technology §Y$tech_volatile_motes$§!.§!"
-ds_nomads_eg_tech: "§RRequires the technology §Y$tech_exotic_gases$§!.§!"
-ds_nomads_rc_tech: "§RRequires the technology §Y$tech_rare_crystals$§!.§!"
+ds_nomads_vm_tech: "§R不足しているテクノロジー §Y$tech_volatile_motes$§!.§!"
+ds_nomads_eg_tech: "§R不足しているテクノロジー §Y$tech_exotic_gases$§!.§!"
+ds_nomads_rc_tech: "§R不足しているテクノロジー §Y$tech_rare_crystals$§!.§!"
 ds_not_enough_manpower: "§RNot enough Manpower left for this option.§!"
 ds_cant_be_negative: "§RNegative resources are not possible.§!"
 ds_nomad_menu_var_value_mp: "§HAvailable Manpower:§! [FromFrom.ds_nomad_menu_var_mp]"
