@@ -57,9 +57,9 @@ dsN.3000.desc: "A deficit of a resource adds us the §H$ds_nomads_deficit$§! mo
 
 # Nomad Perks
 has_ds_nomad_has_prev_perk: "§RRequires the previous Module.§!"
-ds_nomad_menu_perks_res: "§HCost:§! £alloys£§Y500§! £unity£§Y1000§!"
-ds_nomad_menu_perks_res_2: "§HCost:§! £alloys£§Y3500§! £unity£§Y3500§!"
-ds_nomad_menu_perks_res_3: "§HCost:§! £alloys£§Y3500§! £unity£§Y6500§!"
+ds_nomad_menu_perks_res: "§Hコスト:§! £alloys£§Y500§! £unity£§Y1000§!"
+ds_nomad_menu_perks_res_2: "§Hコスト:§! £alloys£§Y3500§! £unity£§Y3500§!"
+ds_nomad_menu_perks_res_3: "§Hコスト:§! £alloys£§Y3500§! £unity£§Y6500§!"
 ds_nomad_menu_colony_1: "£mod_country_admin_cap_add£ 1"
 ds_nomad_menu_colony_2: "£mod_country_admin_cap_add£ 2"
 ds_nomad_menu_colony_3: "£mod_country_admin_cap_add£ 3"
@@ -76,9 +76,9 @@ ds_nomad_menu_colony_6_desc: "$ds_nomad_menu_perks_res_3$ \nManpower Growth: §G
 ds_nomad_menu_colony_counter: "§HColony-Modules§!"
 
 # Variables
-ds_nomads_vm_tech: "§RRequires the technology §Y$tech_volatile_motes$§!.§!"
-ds_nomads_eg_tech: "§RRequires the technology §Y$tech_exotic_gases$§!.§!"
-ds_nomads_rc_tech: "§RRequires the technology §Y$tech_rare_crystals$§!.§!"
+ds_nomads_vm_tech: "§R不足しているテクノロジー §Y$tech_volatile_motes$§!.§!"
+ds_nomads_eg_tech: "§R不足しているテクノロジー §Y$tech_exotic_gases$§!.§!"
+ds_nomads_rc_tech: "§R不足しているテクノロジー §Y$tech_rare_crystals$§!.§!"
 ds_not_enough_manpower: "§RNot enough Manpower left for this option.§!"
 ds_cant_be_negative: "§RNegative resources are not possible.§!"
 ds_nomad_menu_var_value_mp: "§HAvailable Manpower:§! [FromFrom.ds_nomad_menu_var_mp]"
