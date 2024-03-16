@@ -1,0 +1,205 @@
+﻿l_japanese:
+
+# Origin
+galactic_plague_start_NAME: "System 0"
+galactic_plague_start_DESC: "The origin of the invisible death."
+origin_galactic_plague: "£darkspace£Galactic Plague"
+origin_galactic_plague_desc: "The spores and mutations of this species are known as Invisible Death. They have one unifying goal - to spread the infection to every last xeno alive, by any means necessary."
+origin_galactic_plague_effects: "- Homeworld is a §H$pc_galactic_plague$§!. \n- Can §Hinfect§! £pop£ Pops of other empires via §Hspy operations§!. \n- The capital has several special §Hdecisions§! to turn £pop£ Pops into monsters or change your virus strains. \n- Gain access to unique §Htraits§!. \n- Sets the ship appearance to §HOrganic§!, if not already selected."
+pc_galactic_plague: "Biomechanical Hiveworld"
+pc_galactic_plague_desc: ""
+
+# Menu
+dsX.6.name: ""
+dsX.6.desc: "Virus Strains Cap: §Y[owner.ds_gp_strains_limit]§!"
+#ds_gp_strains_info: ""
+ds_gp_tt_button: "£opinion£ Help"
+ds_gp_tt: "£opinion£ All strains have their own effects, except §lPathogen§! strains. Pathogens are only 'amplifying' normal strains, thus they can NOT be picked first. \n\n£opinion£ The §HVirus Strains Cap§! will be increased by §G+1§! each, when: \n- Unlocking §Y2 tradition categories§!. \n- Picking our §Y4th ascension perk§!. \n- Researching the £engineering_research£§Y$tech_battleships$§! technology. \n- Reaching the §Ylate game§! year (dependent on game settings). \n\n£opinion£ Infecting §YMachine empires§! requires the §lPathogen§! strain §HBiomechanical Nanites§!."
+ds_gp_reset_button: "£anomaly£ Reset"
+ds_gp_reset: "£opinion£ Removes all picked strains. Can only be used when the virus strain limit equals the amount of picked strains. \n\nA new mutation is exhausting for our species. Our £food£§YFood Upkeep§! will be increased by §R+50%§! for §Y1§! year."
+ds_gp_limit_reached: "$TRIGGER_FAIL$§RCan only be used when §Y0§! points are left.§!"
+ds_gp_limit_points: "$TRIGGER_FAIL$§RWe do not have enough points for another strain left.§!"
+ds_gp_prev_strains: "$TRIGGER_FAIL$§RThis is a §lPathogen§!, it requires at least one normal gene to have an effect.§!"
+
+ds_gp_highly_contagious_desc: "§HHighly Contagious§!\n§lPathogen§! \n\n§G50%§! chance to infect a §Ysecond planet§!. \n§G25%§! chance to infect a §Ythird planet§!. \nOnly useful if the target owns more than one colony. \n\n§LThis virus possesses the ability to overcome any defence.§!"
+ds_gp_walking_dead_desc: "§HWalking Dead§! \n\nCauses a small §Yzombie-outbreak§! and kills §G1§! £pop£ Pop. \nAdds §Yplanetary devastation§! to the infected world. \n\n§LParasites infest the brain of the host and take control over their body.§!"
+ds_gp_cordyceptic_spores_desc: "§HCordyceptic Spores§! \n\nAdds a hostile £blocker£ §Yblocker§! to the infected world, which has several negative modifiers for the §Yplanet's entire population§!. \n\n§LThe very high environmental resistence of these spores makes it possible to infect the nearby natural surroundings.§!"
+ds_gp_shadow_plague_desc: "§HShadow Plague§!\n§lPathogen§! \n\nChance to spread to §Ynearby empires§!. Chance is increased if the target uses §Ymigration pacts§! or §Yopen borders§!. \n\n§LThe asymptomatic progression of the infection makes it very easy to smuggle the disease across any border.§!"
+ds_gp_insanity_desc: "§HInsanity§! \n\nAdds the §YInfected§! trait to §G4§! £pop£ Pops. \n\n§LThis symptom doesn't break the body, but the mind.§!"
+ds_gp_xenomorph_desc: "§HXenomorph§! \n\nSpawns hostile §Yxenomorphs§! near the infected world and kills §G1§! £pop£ Pop. \n\n§LCountless individuals mutate into one horrifying monster and attack everyone around them.§!"
+ds_gp_paralysing_tumors_desc: "§HParalysing Tumors§! \n\nKills §G1§! £pop£ Pop and adds the §YInfected§! trait to §G2§! £pop£ Pops. \n\n§LVery paiunful pockets of infected flesh will at some point simply burst to spread spores to all bystanders.§!"
+ds_gp_organ_failure_desc: "§HOrgan Failure§! \n\nKills §G2§! £pop£ Pops. \n\n§LA quick catastrophic cell death of different types causes body-wide organ failure that is nearly impossible to stop.§!"
+ds_gp_biomechanical_nanites_desc: "§HBiomechanical Nanites§!\n§lPathogen§! \n\nMakes it possible to infect §Ymachine empires§!. \n\n§LEvery organic body uses small electric signals in its nervous system. These small but effective nanites use this fact and are able to manipulate both - natural and artificial.§!"
+ds_gp_paranoia_desc: "§HInstinctual Paranoia§! \n\nThe infected empire produces §G-10%§! £unity£ §YUnity§! for §Y1 year§!. \n\n§LCauses a deep fear for the infected population, thus making it very hard to interact with others.§!"
+ds_gp_symbiosis_desc: "§HSymbiosis§! \n\nThe infected empire receives a §G+200%§! £pop£ §YPop Upkeep§! for §Y2 years§!. \n\n§LThe spores inside the body are hungry too, thus the host has to consume more to ensure the survival of both.§!"
+ds_gp_dementia_desc: "§HDementia§! \n\nThe infected empire produces §G-10%§! £research£ §YResearch§! for §Y1 year§!. \n\n§LParasites have hunger, and their favorite meal are brain cells.§!"
+ds_gp_myatrophy_desc: "§HMyatrophy§! \n\nAll §Yworker§! or §Ysimple drone§! £job£Jobs of the target produce §G-10%§! §Yresources§! for §Y1 year§!. \n\n§LCauses a rapid decline of muscle growth & tissue stability.§!"
+ds_gp_natural_infestation_desc: "§HNatural Infestation§! \n\nAdds a hostile £blocker£ §Yblocker§! to the infected world, which causes planetary issues & has an upkeep cost. \n\n§LInfects the natural fauna and flora, thus making certain creatures very hostile to any inhabitant of a planet.§!"
+ds_gp_confusion_desc: "§HSystematic Confusion§! \n\nAll leaders of the target receive a §G-10%§! §YExperience Gain§! for §Y1 year§!. \n\n§LCauses a rapid decline of qualitative memorizing & reasoning. The strain also interrupts the emotional stability of the infected.§!"
+
+# Decisions
+decision_ds_gp_hivemoon: "§B<§!Create Hivemoon§B>§!"
+decision_ds_gp_hivemoon_desc: ""
+decision_ds_gp_hivemoon_effects: "Uses §Y75§! §HMorphed§! £pop£ Pops to create a §YHivemoon§!. \n\nThe Hivemoon will appear near this planet & can §Yinfect§! other planets."
+decision_ds_gp_hivemoon_limit: "$TRIGGER_FAIL$ §RRequires §Y75§! §HMorphed§! £pop£ Pops.§!"
+
+decision_ds_gp_hivekraken: "§B<§!Create Hive-Kraken§B>§!"
+decision_ds_gp_hivekraken_desc: ""
+decision_ds_gp_hivekraken_effects: "Uses §Y25§! §HMorphed§! £pop£ Pops to create a §YHive-Kraken§!. \n\nThe Hive-Kraken will appear near this planet & uses mostly §Ymissiles§! with many §Ystrike craft§!."
+decision_ds_gp_hivekraken_limit: "$TRIGGER_FAIL$ §RRequires §Y25§! §HMorphed§! £pop£ Pops.§!"
+decision_ds_gp_x_limit: "$TRIGGER_FAIL$ §RRequires the virus gene §YXenomorph§!.§!"
+decision_ds_gp_cruisers_limit: "$TRIGGER_FAIL$ §RRequieres £engineering_research£§Y$tech_cruisers$§!.§!"
+decision_ds_gp_bb_limit: "$TRIGGER_FAIL$ §RRequieres £engineering_research£§Y$tech_battleships$§!.§!"
+
+decision_ds_gp_virus: "§B<§!Forced Mutation§B>§!"
+decision_ds_gp_virus_desc: ""
+decision_ds_gp_virus_effects: "Adds or changes §Hvirus strains§!. \n\nCan be utilized with the '§H$operation_ds_xeno_virus$§!' operation (§Yespionage§!). Results depend on the picked strains."
+decision_ds_gp_virus_limit: "$TRIGGER_FAIL$ §RWe can not change our species while an espionage operation is active.§!"
+decision_ds_gp_menu_limit: "$TRIGGER_FAIL$ §RThe menu is already open.§!"
+
+decision_ds_gp_melt: "§B<§!Neuronal Unification§B>§!"
+decision_ds_gp_melt_desc: ""
+decision_ds_gp_melt_effects: "Turns every £pop£ Pop with the £job_mortal_initiate£§H$job_galactic_plague$§! Job into a §HMorphed§!. \n\nMorphed pops can be used to create large Xenomorphs."
+decision_ds_gp_melt_limit: "$TRIGGER_FAIL$ §RWe can not modify our species while an active operation.§!"
+
+# Building
+building_galactic_plague: "Liquidation-Hub"
+building_galactic_plague_desc: "Collects biomass to turn them into Xenomorphs."
+building_galactic_plague_desc_jobs: "Planetary decision §YNeuronal Unification§! transforms all £pop£ Pops with the £job_mortal_initiate£§HCatalyst§! Job into §HMorphed§! units."
+job_galactic_plague: "Catalyst"
+job_galactic_plague_plural: "Catalysts"
+job_galactic_plague_desc: "These individuals melt together - fuse together. Becoming something greater!"
+mod_job_galactic_plague_add: "Catalyst Jobs"
+
+# Ships
+HIVEKRAKEN_HULL: "Hive-Kraken"
+hivekraken: "Hive-Kraken"
+hivekraken_plural: "Hive-Kraken"
+HIVEMOON_HULL: "Hivemoon"
+HIVEMOON_REACTOR: "Bio-Reactor"
+hivemoon: "Hivemoon"
+hivemoon_plural: "Hivemoons"
+MESSAGE_DESC_FOR_PLANET_KILLER_PLAGUE:0 "completly eaten. All organic matter is now getting eaten by our collective."
+PLANET_KILLER_PLAGUE:0 "Infector"
+PLANET_KILLER_PLAGUE_DESC:0 "Sets spores onto the planets surface to infect every organic material. Kills all inhabitants."
+PLANET_KILLER_PLAGUE_ACTION:0 "Infecting planet."
+FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_PLAGUE:0 "Infect planet"
+must_be_organic: "Only planets with organic lifeforms can be infected."
+pc_plague: "Infected Planet"
+pc_plague_desc: "This planet got infected by a devouring and deadly organic mass. The whole surface is full with hostile creatures."
+
+# Traits
+trait_ds_strain_basic: "Virus-Species"
+trait_ds_strain_basic_desc: "This species has a virus-like behavior and infects hosts to spread across the galaxy."
+trait_ds_strain_c: "Highly Contagious"
+trait_ds_strain_c_desc: "This gene makes it very easy for the virus to infect every part of an organism while developing countermeasures against antibodies."
+trait_ds_strain_rs: "Replicator-Strain"
+trait_ds_strain_rs_desc: "Rapid replication is the easiest method to overthrow the defences of an infected being."
+trait_ds_strain_rs_tt: "Each £pop£ Pop adds §G+0.25%§! §YPop Growth Speed§! with a maximum of §Y50%§!."
+trait_ds_strain_x: "Xenomorph"
+trait_ds_strain_x_desc: "This species is able to quickly adapt its body parts and metabolism to its surroundings, and even shifts or mutates shapes if necessary."
+trait_ds_strain_dnas: "DNA-Suppression"
+trait_ds_strain_dnas_desc: "This virus strain makes it possible to hide the own genetic information to avoid any reaction of the organism until its too late."
+trait_ds_strain_bs: "Brain Slugs"
+trait_ds_strain_bs_desc: "This little spores feed on the tissue of living beings, while sending wrong chemical signals to the brain - claiming the pain is just an illusion."
+trait_ds_strain_wd: "Walking Dead"
+trait_ds_strain_wd_desc: "Hosts lose control over their body, thus becoming fleshy husks that are controlled by the Invisible Death."
+trait_ds_strain_empty: "Complex Infection"
+trait_ds_strain_empty_desc: "This virus faces hard times when trying to infect complex organisms."
+trait_ds_strain_infected: "Infected"
+trait_ds_strain_infected_desc: "This citizen got infected with the Invisible Death."
+
+# Galactic Community
+ds_healthcare: "Universal Healthcare"
+resolution_category_ds_healthcare: "First Aid"
+resolution_ds_healthcare1: "Start Vaccination Campaign"
+resolution_ds_healthcare1_desc: "The people of multiple nations have to suffer due an illness known as Invisible Death. We have to stand and act together to beat this threat!"
+resolution_ds_healthcare1_effect_success: "All empires receive a cure, which removes the §RInfected§!-trait from all £pop£ Pops."
+ds_healthcare_reso1_pro_desc: "We have to heal ALL infected parts of the population or we risk new infections pretty soon."
+ds_healthcare_reso1_neutral_desc: "We heard of an illness called 'Invisible Death', but can not really notice any large wave of reports in our near our borders. It seems to be a waste of time and resources to act so prematurely."
+ds_healthcare_reso1_contra_desc: "The problems of others do not matter. We can easily solve this problem on our own. We are pretty sure the Invisible Death is just a hoax to scare and force us to join a combined force, to make us obey their rules."
+dsX.14.name: "Free Universal Healthcare!"
+dsX.14.desc: "The galactic community just launched a free vaccination campaign for all its members. The first shuttles with the cure just landed on our homeworld §H[Root.Capital.GetName]§! to let our scientists heal all infected citizens! \n\nHowever.. we know the infection known as 'Invisible Death' evolves quickly, so we should expect further infections if the reason of the outbreak isn't solved yet."
+
+# Modifiers
+ds_xenomorphs_food: "Exhausting Mutation"
+ds_xenomorphs_food_desc: ""
+ds_xenomorphs_unity: "§RInfecion:§! Instinctual Paranoia"
+ds_xenomorphs_unity_desc: "Our people got infected by an unknown illness which causes emotional issues for each one of them. It will take a while until any social interaction will be possible again."
+ds_xenomorphs_pops: "§RInfecion:§! Enemy Inside"
+ds_xenomorphs_pops_desc: "Many people are infected with internal parasites, thus the host has to consume more to keep both alive!"
+ds_xenomorphs_tech: "§RInfecion:§! Cognitive Recession"
+ds_xenomorphs_tech_desc: "People infected with bacteria or parasites experience a brutal downfall of their brain-activities. Our best scientists are working on a solution to avoid consequential damages."
+ds_xenomorphs_jobs: "§RInfecion:§! Myatrophy"
+ds_xenomorphs_jobs_desc: "Due an unknown sickness, many experience a downfall of their physical abilities. Especially the normal workers suffer from this issue."
+ds_xenomorphs_leader: "§RInfecion:§! Mysterious Confusion"
+ds_xenomorphs_leader_desc: "An unknown illness causes a mental dissociation of neuronal links, thus making it much harder to actually think about something or resort to older memories."
+
+# Deposits
+d_ds_gp_cordyceps: "£blocker£ Cordyceptic Spores"
+d_ds_gp_cordyceps_desc: "A dangerous fungus has settled its roots across several locations of the planet."
+d_ds_gp_infestation: "£blocker£ Infestation"
+d_ds_gp_infestation_desc: "Many locations around inhabited places have been infected with deadly spores and viruses. It is not possible to live there until the plague is removed."
+
+# Counters
+ds_plague_counter_chain_title: "§BVictims of the Plague§!"
+ds_plague_counter_chain_desc: "Counts the infected population of the entire galaxy - also from other virus species. \n\n§RCasualties:§! [global_event_country.ds_gp_global_killed] \n§YInfected:§! [global_event_country.ds_gp_global_infected] \n§GCured:§! [global_event_country.ds_gp_global_healed] \n\n£opinion£ §L§YInfected§! shows the total amount of pops that have ever been infected by the plague. It does not consider deaths of unknown cases like purge or bombardment.§!"
+ds_pops_dead_count: "§RCasualties§!" # Not used.
+ds_pops_infected_count: "§YInfected§!" # Not used.
+ds_pops_healed_count: "§GCured§!" # Not used.
+ds_plague_molten_counter_chain_title: "§BWe become one§!"
+ds_plague_molten_counter_chain_desc: "§HMorphed§! £pop£ Pops can be gained with: \n- §YHivemoons§! firing their §RPlanet-Killer Weapon§! 'Infector' onto hostile planets. \n- §YPurging§! or §Yeating§! conquered £pop£ Pops. \n- Planetary decision '§YNeuronal Unification§!' on our homeworld. \n\nThese £pop£ Pops can be used for the §Yplanetary decisions§! on our colonies. \n\n§HAvailable Morphed £pop£:§! §G[root.ds_molten_count]§!"
+ds_pops_molten_count: "§HMorphed§!" # Not used.
+
+# Espionage
+ds_gp_no_operation: "$TRIGGER_FAIL$§RNot available while infecting an empire via espionage!§!"
+ds_infect_need_strains: "$TRIGGER_FAIL$§RRequires at least one selected virus strain!§!"
+ds_infect_need_nanites: "$TRIGGER_FAIL$§RWe need the §YBiomechanical Nanites§! virus strain to infect machine empires!§!"
+operation_ds_xeno_virus: "Invisible Death - Infect Population"
+operation_ds_xeno_virus_desc: "Spreads parasites and spores in the target, whereby dependent on our §Yvirus genes§! the £pop£ Pops will be killed, infected or mutate into hostile creatures."
+operation_ds_xeno_virus_on_success: "Kills, infects or mutates random pops. Result and quantity dependent on our §Yvirus genes§!."
+
+# Events
+dsX.2.name: "Galactic Plague (Invisible Death)"
+dsX.2.desc: "We are a virus-like species that can spread its spores to other empires with an §Hespionage operation§!. However, to make it usable we have to pick §Hvirus genes§! first. Other empires will know the effects as 'Invisible Death' - until they notice the spores, its too late. \n\n£opinion£ Note: \n- There are §Y4§! §Hplanetary decisions§! available on our §Hhomeworld§!. \n- The §HSituation Log§! shows further details and counts the victims of the infections in other empires. \n- We can construct the unique building §H$building_galactic_plague$§! on our homeworld."
+dsX.40.name: "Voracious Behemoth"
+dsX.40.desc: "Together we are stronger, together we are greater than anything else. Our hunger can't be satisfied.. we have to find large quantities of food. The victims can be proud to get sacrificed for our greater good."
+dsX.40.a: "Devour the galaxy!"
+dsX.400.name: "§RMissing Biomass§!"
+dsX.400.desc: "We have not enough §HMorphed§! £pop£ Pops available right now to create a Hivemoon!"
+dsX.50.name: "Release the Kraken!"
+dsX.50.desc: "A giant predator, made out of countless individuals, is waiting to release its smaller swarms against any prey in its sight!"
+dsX.500.desc: "We have not enough §HMorphed§! £pop£ Pops available right now to create a Hive-Kraken!"
+dsX.9.name: "§HGalactic Plague:§! Genetic Enhancement"
+dsX.9.desc: "We can now use §G+1§! extra §Hvirus strain§! when infecting other empires with espionage."
+
+# Stage 1
+dsX.1000.name: "Searching new hosts"
+dsX.1000.desc: "Parasites spread into the population and begin to transform the organic material."
+
+# Stage 2
+dsX.2000.name: "Spreading"
+dsX.2000.desc: "The first citizens show already symptoms. They dont know from where it comes, but can already imagine the coming horror. The incubation time is soon over, but the pain already began."
+
+# Stage 3
+dsX.3000.name: "Outbreak!"
+dsX.3000.desc: "The parasites claimed their first victims, the Invisible Death has no mercy..."
+dsX.3000.a: "Their flesh is ours!"
+
+# Infection already going on!
+dsX.4000.name: "§RInfection already going on§!"
+dsX.4000.desc: "There are enough spores in §H[target_country.GetName]§!. We can try later again."
+
+# Conclusion - plague empire
+dsX.6000.name: "Invisible Death"
+dsX.6000.desc: "Our spores infected the population in §H[ds_xenomorph_system.GetName]§! and caused terrible mutations or death. §H[target_country.GetName]§! has to use some of their resources to fight this invisible threat - which can be good for us."
+
+# Conclusion - victim
+dsX.7000.name: "Virus outbreak on §H[ds_xenomorph_target_planet.GetName]§!!"
+dsX.7000.desc: "Experts say a dangerous illness infected citizens in §H[ds_xenomorph_system.GetName]§!! \n\n\n§WMEDICAL REPORT:§! \n\n§RCasualties:§! §W[root.ds_got_killed_by_gp]§!\n§RInfected:§! §W[root.ds_got_infected_by_gp]§!\n§RInfectious Planetary Deposits:§! §W[root.ds_got_deposits_by_gp]§! \n§RNegative Empire Modifiers:§! §W[root.ds_got_modifiers_by_gp]§!"
+dsX.7001.name: "Virus outbreak on §H[ds_xenomorph_target_planet_2.GetName]§!!"
+dsX.7001.desc: "The reported infections were able to pass our security zones and even infected the population of the §H[ds_xenomorph_system_2.GetName]§!-system!"
+dsX.7002.name: "Virus outbreak on §H[ds_xenomorph_target_planet_3.GetName]§!!"
+dsX.7002.desc: "An inevitable catastrophe just hit us.. a third colony just reported victims of the same plague that had already struck other planets. The military has now created further quarantine-zones in the §H[ds_xenomorph_system_3.GetName]§!-system."
+dsX.7003.name: "§RDetection of an epidemic!§!"
+dsX.7003.desc: "Multiple hospitals and military leaders reported a rise of increased infections by an unknown disease across our nation. Sadly we have §Rlost §Y3§! £pop£ Pops§! due that outbreak of the unknown plague. \n\nExperts claim the deadly illness probably came either with a §Hmigration treaty§! on our colonies, or a §Hneighboring country§! was infected before us whileour borders were open for them. \n\nThey advice to §Hclose all borders§! & §Hend migration pacts§! until we are sure the reason behind the outbreak is gone!"

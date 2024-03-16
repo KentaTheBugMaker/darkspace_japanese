@@ -1,0 +1,763 @@
+﻿l_japanese:
+
+# l_english l_braz_por l_french l_german l_polish l_korean l_russian l_simp_chinese l_spanish
+
+######## Menu Start
+
+ds_button_tt_manpower: "労働力"
+ds_button_tt_manpower_desc: "労働力 Nomad の £pop£ §YPops§!. Their upkeep depends on their §Yquantity§! and our §Yauthority§!. The §HMonthly Growth§! is §G+5§!, but it can be increased with §YTechnologies§!, §YTraditions§! and §YAscension Perks§!. \n\nThe growth will §Rstop§!, if Nomad £housing£§HHousing§! is lower than §Y1§!.\nGrowth is temporarily §Rreduced§! while being §Rat war§! or after a §Rlost war§!§ . \n\nEvery populated planet has the §Ydecision§! §BRecruitment§! to turn £pop£ into Manpower. \n\n£opinion£ §EAll common technologies that improve £housing£Housing or £mod_pop_growth_speed£Pop Growth unlock also more §YNomad§!£housing£§YHousing§! or §YMonthly Growth (Manpower)§!."
+ds_button_tt_production: "生産"
+ds_button_tt_production_desc: "§YIncome & Upkeep§! is shown in the §HGovernment Window§! as §Ymodifier§! and also visible in the §HNomad-Administration§!. \n\n§RResource Deficits§! add a §Rmodifier§! to our empire for §Y30 days§! or longer, if the situation doesn't improve. \n\nNew §HRepeatable Technologies§! will show up, which increase our basic income. \n\n£opinion£ §EProduction & Upkeep Values for §Y1§! allocated Manpower: \n1*£energy£ §Hproduces§! §G+10§!£energy£ \n1*£minerals£ §Hproduces§! §G+6§!£minerals£ §R-1§!£energy£ \n1*£alloys£ §Hproduces§! §G+6§!£alloys£ §R-5§!£minerals£ \n1*£unity£ §Hproduces§! §G+8§!£unity£ §R-2§!£energy£ \n1*£ds_research£ §Hproduces§! §G+18§!£ds_research£ §R-5§!£energy£ \n1*£food£ §Hproduces§! §G+7§!£food£ §R-1§!£energy£ \n1*£consumer_goods£ §Hproduces§! §G+7§!£consumer_goods£ §R-3§!£minerals£ \n1*£volatile_motes£/£exotic_gases£/£rare_crystals£ §Hproduces§! §G+3§! §R-9§! £minerals£§!"
+ds_button_tt_ships: "船"
+ds_button_tt_ships_desc: "Nomads have a unique capital ship called §HAlarai§!. It can carry §Yspecial components§! and it can only be §Ybuilt once§!. \n\nThe smaller capital ship called §HArk§! has similar components, but can be §Ybuilt more§! times. \n\n£opinion£ §EAll ships have components that §Yproduce resources§!. The §YTier2§! / §YTier3 - components§! require certain §YAscension Perks§!."
+ds_button_tt_perks: "パーク"
+ds_button_tt_perks_desc: "There are §Y5§! normal §HAscension Perks§! and §Y6§! §HNomad Perks§! in the §HNomad-Administration§!. \n\n§YNormal Perks§! unlock better §Hcomponents§! and §Hships§!. \n§YNomad Perks§! unlock §HTraditions§! & §HMonthly Growth (Manpower)§!. \n\nThe special Perk §HBack To The Roots§! lets Nomads §Ycolonize planets§! and use §Ynormal§! £pop£ Pops with greater efficiency (without this, real Pops have strong debuffs in production & growth!). It also enables a new §HPlanetary Decision§! to turn Manpower back into normal £pop£. \n\n£opinion£ §E§YBack To The Roots§! is NOT necessary to play Nomads, only if our focus lies on conquering planets.§!"
+ds_button_tt_traditions: "Traditions"
+ds_button_tt_traditions_desc: "There are §Y6§! new traditions available - each one offering a different playstyle. They are called §H$tradition_ds_starseekers$§!, §H$tradition_ds_cosmic_voyagers$§!, §H$tradition_ds_void_industry$§!, §H$tradition_ds_cosmic_reavers$§! & §H$tradition_ds_void_politics$§!. \n\nThe tradition §HVoidborn§! is only available after unlocking all §Y6§! §HNomad-Perks§! in the §HNomad-Administration§!. \n\n£opinion£ §E§YVoidborn§! is for "pure" Nomad gameplay without any planet. Unlocking it will §Rblock§! the Ascension Perk §YBack To The Roots§!.§!"
+ds_button_tt_setups: "Setups"
+ds_button_tt_setups_desc: "Nomads have §Y2§! §Hdifferent playstyles§!. \n\n§HDiplomats§! require always at least §Y1§! £pop£ - otherwise the entire empire will §Rdie§!. They have all options for §Ydiplomacy§! available and can join §YFederations§! or the §YGalactic Community§!. They can §Rnot pass closed borders§!. \n\n§HSavages§! are the true Nomad experience. They require §Y0§! £pop£ and do not even need own territory. Can §Yignore closed borders§!. The empire will §Rdie§!, if the last §YAlarai§!, §YArk§! and §Ystarbase§! are destroyed! Savages are §Rlimited§! in §Ydiplomacy§!. \n\n£opinion£ §EBoth playstyles can utilize planets with the Ascension Perk §YBack To The Roots§! and turn £pop£ into Manpower or vice versa. \nBoth playstyles have new traditions, perks, the Manpower system, components & more.§!"
+ds_button_tt_vanilla: "Default-Techs"
+ds_button_tt_vanilla_desc: "Some common Stellaris-Technologies have an impact on the growth & economy of Nomads. \n\n£housing£§HHousing Technologies§! \nIncrease the §YNomad-£housing£Housing§! by §G+5§!. \n\n£mod_job_researcher_add£§HResearcher & Research-Building Technologies§! \nIncrease the amount of available £mod_job_researcher_add£ £mod_job_alloy_drone_add£ £mod_unity_produces_add£ §YSpecialist-Slots§! by §G+2§!. \n\n £pop£ §HPop-Growth Technologies§! \nIncrease the §YMonthly Growth (Manpower)§! by §G+1§!. \n\n£amenities£§HAscension Perks for Genetic / Machine Evolution§! \nIncreases the §YMonthly Growth (Manpower)§! by §G+1§! AFTER ACCEPTING a Perk (which changes/adds new £pop£ Pop Traits). \n\n£amenities£§HTraditons for Genetic / Machine Evolution§! \nIncreases the §YMonthly Growth (Manpower)§! by §G+1§! AFTER FINISHING a tradition (Genetics, Cybernetics, Synthetics). \n\n£opinion£ §EThe tradition §Y$tradition_expansion$§! also increases the §YMonthly Growth (Manpower)§! by §G+1§!.§! "
+ds_button_tt_limits: "§CCrew Capacity§!"
+ds_button_tt_limits_desc: "The §CCrew Capacity§! represents the amount available space in our mobile fleets. It can be increased with §YTraditions§!, §YAscension Perks§!, §YTechnologies§! and §YCivics§!. \n\n£opinion£ §EIf the §CCrew Capacity§! reaches the maximum, §Rno§! Manpower can grow anymore.§!"
+
+ds_nomad_menu_var_e_total: "£energy£ 収入"
+ds_nomad_menu_var_m_total: "£minerals£ 収入"
+ds_nomad_menu_var_a_total: "£alloys£ 収入"
+ds_nomad_menu_var_u_total: "£unity£ 収入"
+ds_nomad_menu_var_r_total: "£ds_research£ 収入"
+ds_nomad_menu_var_vm_total: "£volatile_motes£ 収入"
+ds_nomad_menu_var_eg_total: "£exotic_gases£ 収入"
+ds_nomad_menu_var_rc_total: "£rare_crystals£ 収入"
+ds_nomad_menu_var_fleet_total: "艦隊許容量"
+ds_nomad_menu_var_f_total: "£food£ 収入"
+ds_nomad_menu_var_cg_total: "£consumer_goods£ 収入"
+
+dsN.5.name: "Nomad Administration"
+dsN.5.desc: ""
+#dsN.5.desc: "§HProduction§! shows the total income with §Rupkeep§!. \n\n1*£energy£ §Hproduces§! §G+10§!£energy£ \n1*£minerals£ §Hproduces§! §G+6§!£minerals£ §R-1§!£energy£ \n1*£alloys£ §Hproduces§! §G+6§!£alloys£ §R-5§!£minerals£ \n1*£unity£ §Hproduces§! §G+8§!£unity£ §R-2§!£energy£ \n1*£ds_research£ §Hproduces§! §G+24§!£ds_research£ §R-5§!£energy£ \n1*£food£ §Hproduces§! §G+7§!£food£ §R-1§!£energy£ \n1*£consumer_goods£ §Hproduces§! §G+7§!£consumer_goods£ §R-3§!£minerals£ \n1*£volatile_motes£/£exotic_gases£/£rare_crystals£ §Hproduces§! §G+3§! §R-9§! £minerals£"
+ds_nomad_menu_button_mp: "[root.ds_nomad_menu_var_mp]"
+ds_nomad_menu_tt: "£council£ §HNomad Administration§! \n\nManages the allocation of §YManpower§! to produce §Yresources§!, shows the §YManpower Growth§! & contains §Yhelpful tooltips§! how to actually play as Nomads. \n\n£opinion£ §EOpening this menu will §Rpause§! the game every time. To stop that, open Stellaris' §YSettings§!, then go to §YMessages§! and turn off §YEvent Auto-Pause§!.§!"
+
+# Espionage
+ds_nomad_menu_intel_text: "Espionage"
+ds_must_be_savages: "Only available for the §HSavages§! ['concept_ds_nomad_setups']."
+ds_nomads_spy_ongoing: "There is already an operation going on. \n§HCooldown:§! §Y360 Days§!"
+ds_intel_scope: "£ds_intel£ §HEspionage§! \n\nClick on any empire flag or diplomacy window to start gaining intel on the empire. Use this instead of the normal diplomacy window (or it will not be available for Savages). \n\n£opinion£§EThis button is only available for the §HSavages§! ['concept_ds_nomad_setups']. The result depends on our own level of §YCodebreaking§!.§!"
+dsN.32.name: "Operation Successful" # espionage
+dsN.32.desc: "Small vessels have entered the territory of §H[ds_spy_target.GetName]§! and gained important intel about their society and logistics."
+
+# Information events for the player
+dsN.2.name: "Nomads & normal technologies"
+dsN.2.desc: "Common Stellaris-Technologies of certain areas unlock also bonuses for Nomads. \n\nFurther details are available in the §HNomad-Administration§! (button §YDefault-Techs§!)."
+dsN.400.name: "$ds_nomads_gateway$"
+dsN.400.desc: "This §Hmegastructure§! is available after gamestart and works only for §YNomads§! and §Yallies§!. They work like normal Gateways and must be built on the edge of a solar system."
+dsN.3000.name: "§REconomy Crash!§!"
+dsN.3000.desc: "A deficit of a resource adds us the §H$ds_nomads_deficit$§! modifier for §Y30 days§!. The timer goes up to 30 days until the situation is fixed!"
+
+# Nomad Perks
+has_ds_nomad_has_prev_perk: "§RRequires the previous Module.§!"
+ds_nomad_menu_perks_res: "§HCost:§! £alloys£§Y500§! £unity£§Y1000§!"
+ds_nomad_menu_perks_res_2: "§HCost:§! £alloys£§Y3500§! £unity£§Y3500§!"
+ds_nomad_menu_perks_res_3: "§HCost:§! £alloys£§Y3500§! £unity£§Y6500§!"
+ds_nomad_menu_colony_1: "£mod_country_admin_cap_add£ 1"
+ds_nomad_menu_colony_2: "£mod_country_admin_cap_add£ 2"
+ds_nomad_menu_colony_3: "£mod_country_admin_cap_add£ 3"
+ds_nomad_menu_colony_4: "£mod_country_admin_cap_add£ 4"
+ds_nomad_menu_colony_5: "£mod_country_admin_cap_add£ 5"
+ds_nomad_menu_colony_6: "£mod_country_admin_cap_add£ 6"
+ds_nomad_menu_colony_1_desc: "$ds_nomad_menu_perks_res$ \nManpower Growth: §G+2§!"
+ds_nomad_menu_colony_2_desc: "$ds_nomad_menu_perks_res$ \nManpower Growth: §G+2§!"
+ds_nomad_menu_colony_3_desc: "$ds_nomad_menu_perks_res$ \nManpower Growth: §G+2§!"
+ds_nomad_menu_colony_4_desc: "$ds_nomad_menu_perks_res$ \nManpower Growth: §G+2§!"
+ds_nomad_menu_colony_5_desc: "$ds_nomad_menu_perks_res_2$ \nManpower Growth: §G+2§!"
+ds_nomad_menu_colony_6_desc: "$ds_nomad_menu_perks_res_3$ \nManpower Growth: §G+2§! \n\n§HTradition Unlocked:§! Voidborn \n§HNew Technology:§! $tech_ds_nomads_pops$ (appears in the endgame) \n§HNew Technology:§! $tech_ds_nomads_pops2$ (appears in the endgame) \n§RAscension Perk denied:§! Back To The Roots"
+#ds_nomad_menu_colony_counter: "§HColony-Modules:§! [FromFrom.ds_nomad_colony_var] / 12"
+ds_nomad_menu_colony_counter: "§HColony-Modules§!"
+
+# Variables
+ds_nomads_vm_tech: "§RRequires the technology §Y$tech_volatile_motes$§!.§!"
+ds_nomads_eg_tech: "§RRequires the technology §Y$tech_exotic_gases$§!.§!"
+ds_nomads_rc_tech: "§RRequires the technology §Y$tech_rare_crystals$§!.§!"
+ds_not_enough_manpower: "§RNot enough Manpower left for this option.§!"
+ds_cant_be_negative: "§RNegative resources are not possible.§!"
+ds_nomad_menu_var_value_mp: "§HAvailable Manpower:§! [FromFrom.ds_nomad_menu_var_mp]"
+ds_nomad_menu_var_value_e: "[FromFrom.ds_nomad_menu_var_e]£energy£"
+ds_nomad_menu_var_value_m: "[FromFrom.ds_nomad_menu_var_m]£minerals£"
+ds_nomad_menu_var_value_a: "[FromFrom.ds_nomad_menu_var_a]£alloys£"
+ds_nomad_menu_var_value_u: "[FromFrom.ds_nomad_menu_var_u]£unity£"
+ds_nomad_menu_var_value_f: "[FromFrom.ds_nomad_menu_var_f]£food£"
+ds_nomad_menu_var_value_cg: "[FromFrom.ds_nomad_menu_var_cg]£consumer_goods£"
+ds_nomad_menu_var_value_r: "[FromFrom.ds_nomad_menu_var_r]£ds_research£"
+ds_nomad_menu_var_value_vm: "[FromFrom.ds_nomad_menu_var_vm]£volatile_motes£"
+ds_nomad_menu_var_value_eg: "[FromFrom.ds_nomad_menu_var_eg]£exotic_gases£"
+ds_nomad_menu_var_value_rc: "[FromFrom.ds_nomad_menu_var_rc]£rare_crystals£"
+ds_nomad_menu_var_value_fleet: "[FromFrom.ds_nomad_menu_var_fleet]£mod_country_vassal_naval_capacity_contribution_mult£"
+ds_nomad_menu_r_slots: "Specialist-Slots"
+
+ds_nomad_menu_var_value_e_total: "[FromFrom.ds_nomad_menu_var_e_total] £energy£"
+ds_nomad_menu_var_value_m_total: "[FromFrom.ds_nomad_menu_var_m_total] £minerals£"
+ds_nomad_menu_var_value_a_total: "[FromFrom.ds_nomad_menu_var_a_total] £alloys£"
+ds_nomad_menu_var_value_u_total: "[FromFrom.ds_nomad_menu_var_u_total] £unity£"
+ds_nomad_menu_var_value_f_total: "[FromFrom.ds_nomad_menu_var_f_total] £food£"
+ds_nomad_menu_var_value_cg_total: "[FromFrom.ds_nomad_menu_var_cg_total] £consumer_goods£"
+ds_nomad_menu_var_value_r_total: "[FromFrom.ds_nomad_menu_var_r_total] £ds_research£"
+ds_nomad_menu_var_value_vm_total: "[FromFrom.ds_nomad_menu_var_vm_total] £volatile_motes£"
+ds_nomad_menu_var_value_eg_total: "[FromFrom.ds_nomad_menu_var_eg_total] £exotic_gases£"
+ds_nomad_menu_var_value_rc_total: "[FromFrom.ds_nomad_menu_var_rc_total] £rare_crystals£"
+ds_nomad_menu_var_value_fleet_total: "[FromFrom.ds_nomad_menu_var_fleet_total] £fleet_template_size£"
+
+ds_nomad_menu_mp_growth: "§HGrowth:§! [FromFrom.ds_nomads_growth]"
+ds_nomad_menu_mp_growth_status: "§HStatus:§! [FromFrom.ds_nomads_growth_100] / [FromFrom.ds_nomads_growth_limit]"
+ds_nomad_menu_mp_limit: "§CCrew Capacity:§! [FromFrom.ds_nomad_menu_var_mp_total] / [FromFrom.ds_nomads_mp_max]"
+ds_nomad_menu_housing: "£housing£Housing (§G+3§!)"
+ds_nomad_menu_housing_res: "§HCost:§! £alloys£§Y10§! £minerals£§Y750§!"
+ds_nomad_menu_housing_total: "§HFree £housing£Housing:§! [FromFrom.ds_nomad_menu_housing]"
+
+ds_nomad_menu_research_slots: "£mod_job_researcher_add£ £mod_job_alloy_drone_add£ £mod_unity_produces_add£ Slot (§G+2§!)"
+ds_nomad_menu_research_slots_tooltip: "Unlocks more slots for Manpower on Research, Alloys & Unity."
+ds_not_enough_r_slots: "§RNot enough Specialist-Slots available.§!"
+ds_nomad_menu_research_slots_res: "§HCost:§! £alloys£§Y50§! £minerals£§Y850§!"
+ds_nomad_menu_var_value_total: "§HProduction§! (§G+§!/§R-§!)"
+ds_nomad_menu_var_mp: "Manpower"
+ds_nomad_menu_var_e: "Monthly £energy£"
+ds_nomad_menu_var_m: "Monthly £minerals£"
+ds_nomad_menu_var_a: "Monthly £alloys£"
+ds_nomad_menu_var_u: "Monthly £unity£"
+ds_nomad_menu_var_f: "Monthly £food£"
+ds_nomad_menu_var_cg: "Monthly £consumer_goods£"
+ds_nomad_menu_var_r: "Monthly £ds_research£"
+ds_nomad_menu_var_vm: "Monthly £volatile_motes£"
+ds_nomad_menu_var_eg: "Monthly £exotic_gases£"
+ds_nomad_menu_var_rc: "Monthly £rare_crystals£"
+ds_nomad_menu_var_fleet: "£mod_country_vassal_naval_capacity_contribution_mult£Naval Capacity"
+ds_nomads_pop_limit: "§CCrew Capacity§!"
+ds_nomads_pop_growth: "Manpower Growth (Nomads)"
+
+# Menu Modifiers
+ds_nomads_empire_size: "§CNomads:§! £empire_sprawl£ Empire Size"
+ds_nomads_empire_size_desc: "Increases £empire_sprawl£Empire Size by §R+1§! for each §HManpower§!."
+ds_nomads_menu_e: "§CNomads:§! £energy£ Energy"
+ds_nomads_menu_e_desc: ""
+ds_nomads_menu_m: "§CNomads:§! £minerals£ Minerals"
+ds_nomads_menu_m_desc: ""
+ds_nomads_menu_a: "§CNomads:§! £alloys£ Alloys"
+ds_nomads_menu_a_desc: ""
+ds_nomads_menu_u: "§CNomads:§! £unity£ Unity"
+ds_nomads_menu_u_desc: ""
+ds_nomads_menu_f: "§CNomads:§! £food£ Food"
+ds_nomads_menu_f_desc: ""
+ds_nomads_menu_cg: "§CNomads:§! £consumer_goods£ Consumer Goods"
+ds_nomads_menu_cg_desc: ""
+ds_nomads_menu_r: "§CNomads:§! £ds_research£ Research"
+ds_nomads_menu_r_desc: ""
+ds_nomads_menu_vm: "§CNomads:§! £volatile_motes£ Volatile Motes"
+ds_nomads_menu_vm_desc: ""
+ds_nomads_menu_eg: "§CNomads:§! £exotic_gases£ Exotic Gases"
+ds_nomads_menu_eg_desc: ""
+ds_nomads_menu_rc: "§CNomads:§! £rare_crystals£ Rare Crystals"
+ds_nomads_menu_rc_desc: "
+ds_nomads_menu_fleet: "§CNomads:§! Fleet Capacity"
+ds_nomads_menu_fleet_desc: ""
+mod_country_base_physics_research_produces_add: "Monthly £physics_research£"
+mod_country_base_society_research_produces_add: "Monthly £society_research£"
+mod_country_base_engineering_research_produces_add: "Monthly £engineering_research£"
+
+# Negative Modifiers
+ds_nomads_food_deficit: "Supply Chain Shortages (food)"
+ds_nomads_food_deficit_desc: "Our people are undersupplied and quit most their work."
+ds_nomads_minerals_deficit: "Supply Chain Shortages (minerals)"
+ds_nomads_minerals_deficit_desc: "Our industry lacks required resources to continue most of the production or to upkeep existing components."
+mod_country_base_alloys_produces_add: "Monthly alloys"
+ds_nomads_planets: "§CNomads:§! §HOccupation Force§!"
+ds_nomads_planets_desc: "We don't care about the £pop£ of a planet and let them handle the planet by themself."
+ds_nomads_deficit: "§CNomads:§! §REconomy Crash§!"
+ds_nomads_deficit_desc: "§LA current resource deficit interrupts all production chains & maintenance.§!"
+ds_nomads_upkeep_machine: "§CNomads:§! Pop Upkeep"
+ds_nomads_upkeep_machine_desc: ""
+ds_nomads_upkeep_hive: "§CNomads:§! Pop Upkeep"
+ds_nomads_upkeep_hive_desc: ""
+ds_nomads_upkeep_default: "§CNomads:§! Pop Upkeep"
+ds_nomads_upkeep_default_desc: ""
+
+# Decisions
+decision_nomads_manpower: "§BRecruitment§! (1x)"
+decision_nomads_manpower_desc: "Increases the §HManpower§! for the §YNomad-Administration§! to produce more resources and research."
+decision_nomads_manpower_effects: "Removes §R-1§! £pop£ and increases our §HManpower§! by §G+1§!. \nWorks only for £pop£ Pops with good or better living standards. \nOnly §YSavages§! can remove the last pop of a §Ycapital§!."
+
+decision_nomads_manpower_15: "§BRecruitment§! (15x)"
+decision_nomads_manpower_15_desc: "Increases the §HManpower§! for the §YNomad-Administration§! to produce more resources and research."
+decision_nomads_manpower_15_effects: "Removes §R-15§! £pop£ and increases our §HManpower§! by §G+15§!. \nWorks only for £pop£ Pops with good or better living standards. \nOnly §YSavages§! can remove the last pop of a §Ycapital§!."
+
+decision_nomads_manpower_1_housing: "§RRequires at least §Y1§!£housing£§YHousing§! in the Nomad-Administration.§!"
+decision_nomads_manpower_15_housing: "§RRequires at least §Y15§!£housing£§YHousing§! in the Nomad-Administration.§!"
+decision_nomads_manpower_overcrowded: "§RThere is not enough space on our fleet right now (§CCrew Capacity§!).§!"
+
+# Edicts
+edict_nomad_economy_menu_edict: "§BNomad-Administration§!"
+edict_nomad_economy_menu_edict_desc: "We must ensure efficiency and order across our entire fleet."
+nomad_economy_menu_effect: "Administrates our economy via §HManpower§!."
+ds_nomad_menu_only_once: "§RThe menu is already open.§!"
+
+edict_nomad_alarai_colonizer: "§BNomads:§! Spawn Colonizer"
+edict_nomad_alarai_colonizer_desc: "Our empire must expand. Even though its against our nature, we have to settle new worlds."
+nomad_alarai_colonizer_effect: "Spawns §G1§! §YColonizer§! near our flagship §HAlarai§!. \nIf we §Rdon't have the Alarai§!, there can be §Rno Colonizer§!! \n\nOnly useful if the amount of owned £pop£ Pops is §Y0§!."
+
+edict_nomad_alarai_res_cap: "§BNomads:§! Nationalised Storage Management"
+edict_nomad_alarai_res_cap_desc: "Dedicated starbases and cargo bays will carry some of our reserves until they are needed."
+
+edict_nomad_savages_repair: "§BNomads:§! Ship Repair"
+edict_nomad_savages_repair_desc: "War exhaustion does not only hit our people, but our ships as well."
+nomad_savages_repair_effect: "Repairs all damaged ships in our fleets. \nCan only be used every §Y60 days§!."
+ds_nomads_repair: "§CNomads:§! Maintenance"
+ds_nomad_repair_only_once: "§RCan only be used every §Y60 days§!.§!"
+
+edict_nomad_cap_subsidies: "§BNomads:§! Integrated Solar Panels" # If changes, update tradition loc.
+edict_nomad_cap_subsidies_desc: "Our ships are often located near a system's star. Fitting some solar panels onto them will be a free and easily attainable energy source."
+
+edict_nomad_recruit_leader: "§BNomads:§! Recruit £leader£Leader"
+edict_nomad_recruit_leader_desc: "Allows the best of our people to take control of a sector or part of the fleet."
+nomad_recruit_leader_effect: "Adds §G+1§! £leader£§YLeader§! to our empire. We can select between the classes £official£Official, £scientist£Scientist and £commander£Commander."
+nomad_recruit_leader_fail: "§RCan only be used every §Y3 Years§!."
+dsN.35.name: "£leader£ Leader Election"
+dsN.35.desc: "We can select one £leader£leader. The result will be random. \n\nThe selection of £official£ £scientist£ £commander£ will enable an edict §Rcooldown§! of §Y3 Years§!. \nChoosing 'Cancel' will not enable a cooldown."
+dsN.35.a: "£official£ Official"
+dsN.35.b: "£scientist£ Scientist"
+dsN.35.c: "£commander£ Commander"
+dsN.35.d: "§HCancel§!"
+
+######## Menu End
+
+# Leaders
+ds_nomads_governor: "Ruler"
+ds_nomads_scientist: "Scientist"
+ds_nomads_admiral: "Admiral"
+ds_nomads_general: "General"
+
+# Start event
+dsN.1.name: "Nomad Mechanics"
+dsN.1.desc: "Nomads have §Y2§! playstyles, §HDiplomats§! & §HSavages§!. \n\n£opinion£ §HDiplomats:§! \n- Require at least §Y1§!£pop£ Pop, or the empire will §Rdie§!. \n- Has all espionage & diplomacy options available. \n- Can §Rnot pass§! closed borders. \n\n£opinion£ §HSavages:§! \n- Require §Y0§!£pop£ Pops or planets. \n- Limited diplomacy & espionage options. \n- Can §Gpass§! closed borders. \n\n£opinion£ §HEconomy Management (both):§! \nBoth playstyles use a new §YEconomy Window§!. It can be opened with the §YEdict§! §WNomad-Administration§! or §YButton§! in the normal interface (§Ytop right corner§!). \nThis window has also §Ytooltips§!/§Yexplanations§! for basic §Yfeatures§!. \n\n£opinion£ §RWarning:§! §HMod Compatibility:§! \nThe §YButton§! in the interface to open the §YEconomy Window§! could be hidden, if an §WUI-Mod§! is installed (example §WUI Overhaul Dynamic§!). \n\nInstall a §Ycompatibility patch§! or put §WDarkSpace§! §Yabove§! the §WUI-Mod§! in the §Ymod load-order§! or §Ymodlist§! in the §YLauncher-Playset§!."
+dsN.1.a: "§WSavages-Setup§!"
+dsN.1.b: "§WDiplomats-Setup§!"
+
+# Ships
+ds_nomads_ark: "Ark"
+ds_nomads_ark_plural: "Arks"
+ds_nomads_ark_key: "Factory Ark"
+ds_nomads_ark_carrier_key: "Carrier Ark"
+ds_nomads_ark_attack_key: "Destroyer Ark"
+SHIP_GRAPHICS_DS_NOMADS_ARK_DESC: "§HNomads§! Origin"
+ds_nomads_main: "Alarei"
+ds_nomads_main_plural: "Alarei"
+ds_nomads_main_key: "Factory Flagship"
+ds_nomads_main_carrier_key: "Carrier Flagship"
+ds_nomads_main_attack_key: "Destroyer Flagship"
+SHIP_GRAPHICS_DS_NOMADS_MAIN_DESC: "§HNomads§! Origin"
+ds_nomads_shipyard_key: "Mobile Shipyard"
+ds_nomads_shipyard: "Mobile Shipyard"
+ds_nomads_shipyard_plural: "Mobile Shipyards"
+
+# Origin
+origin_ds_nomads: "£darkspace£Nomads"
+origin_ds_nomads_desc: "This empire avoids any planetary surface and lives only on their immense fleet."
+origin_ds_nomads_effects: "- Can use ['concept_ds_nomad_civics']. \n- Gain access to unique §HShips§!, §HComponents§!, §HTraditions§!, §HAscension Perks§! & more. \n- Have a §Hdifferent economy§! - do not require any £pop£ Pop or planet. \n- Have §Y2§! ['concept_ds_nomad_setups']s available. \n§R- WARNING: Not playable for the AI.§!\n"
+origin_tooltip_ds_nomads_error: "Has compatible civics."
+concept_ds_nomad_civics: "Nomad Civics"
+concept_ds_nomad_civics_desc: "While creating a Nomad empire in the empire creation, you can select unique civics that are only available for this origin. \n\nIt is possible to select some of them also after gamestart. \n\nAll these new civics are marked with '§CNomads§!'."
+concept_ds_nomad_setups: "Playstyle"
+concept_ds_nomad_setups_desc: "Nomad empires can play in §Y2§! different ways: \n\n§CSavages§! need §G0§! §Yplanets§! or £pop£ §YPops§! and can ignore closed borders, but are limited in diplomatic actions or espionage. \n\n§CDiplomats§! need at least §R1§! £pop£ §YPop§! or §Ycolony§! and must respect empire borders. Otherwise they have no limitations."
+
+personality_ds_nomads: "Rulers of the void"
+personality_ds_nomads_desc: "This nomadic empire does not own any planetary outposts and lives only on their giant fleet."
+ds_nomads_start_NAME: "Nomad System"
+ds_nomads_start_DESC: "Something arrived in this system and caused an incredible strong wave of energy that shattered every planet in this system."
+d_ds_nomads: "Void Control Core"
+d_ds_nomads_desc: ""
+dsN.10.name: "Back To The Roots"
+dsN.10.desc: "We can now use the policy §BNomad-Outposts§!. Activating it will adjust the negative Nomad output of jobs and pop growth (default is §R-99%§!, see government window) to only §H-15%§!. \n\nWe will §Rnot§! have a monthly growth of §RManpower§! when using this, but it can be changed every §Y10§! years. \n\nTurning pops into Manpower via planetary decision is still possible with both policies."
+
+# Civics
+civic_ds_nomads_raiders: "§CNomads:§! Raiders"
+civic_ds_nomads_raiders_desc: "£ds_civic£§CDarkSpace§! \n\nTaking resources from the surrounding systems isn't always enough. Sometimes its necessary to take further steps."
+civic_ds_nomads_raiders_effects: "Gain access to the '§Y$bombardment_ds_nomads_raidattack$§!' §HBombardment Stance§! to steal resources from the planet's owner. This stance can not abduct £pop£ Pops."
+dsN.29.name: "Raid on §H[raided_planet.GetName]§! successful!"
+dsN.29.desc: "§LIn a recent attack the population of §H[ds_raid_victim.GetName]§! was waken up by a steady bombardment and constant attack of smaller raiding forces. \n\nAccording to our admirals, the raids on §H[raided_planet.GetName]§! were succesful thanks to the use of multiple small groups. They quickly overwhelmed enemy defences by causing sheer panic in multiple areas at once.§!"
+dsN.30.name: "Raiders hit §P[Root.GetName]§!!"
+dsN.30.desc: "§LRaiding parties of the §H[ds_raider_country.GetName]§! attacked one of our colonies and took everything they saw as 'war loot'. \n\nAfter deploying multiple smaller attack forces on §H[Root.GetName]§!, several outposts and settlements were attacked!§!"
+bombardment_ds_nomads_raidattack: "Nomadic Raid"
+bombardment_ds_nomads_raidattack_desc: "Smaller raiding groups ravage the surface of the target for anything valuable to loot. \n- §YModerate§! damage to §YArmies§! \n- §YModerate§! damage to §YPlanet§! \n- §ELight§! damage to §YPops§! \n- Will §RNOT§! kill the last §Y11§! Pops"
+
+civic_ds_nomads_growth: "§CNomads:§! Void Haven"
+civic_ds_nomads_growth_desc: "£ds_civic£§CDarkSpace§! \n\nEven though the galaxy is vast and full of dangers, for these people its a paradise."
+civic_ds_nomads_growth_limits: "Has no Civic that increases planetary £pop£ §YPop Growth§!."
+
+civic_ds_nomads_crewcap: "§CNomads:§! Ascetic"
+civic_ds_nomads_crewcap_desc: "£ds_civic£§CDarkSpace§! \n\nThis species cares little for material comforts or much space. They all share the same destiny and faith - praise the fleet!"
+
+civic_ds_nomads_recruitment: "§CNomads:§! Space Travellers"
+civic_ds_nomads_recruitment_desc: "£ds_civic£§CDarkSpace§! \n\nSpecialised shuttles make it easier to transport the population between the large home fleet and stations - or planets."
+civic_ds_nomads_recruitment_effects: "The §HPlanetary Decision§! '§YRecruitment§!' is §G50%§! cheaper."
+
+civic_ds_nomads_empiresize: "§CNomads:§! Traditional"
+civic_ds_nomads_empiresize_desc: "£ds_civic£§CDarkSpace§! \n\nThis species is very comfortable with living in a limited environment."
+civic_ds_nomads_empiresize_effects: "£empire_sprawl£ §YEmpire Size§! from §HManpower§! £pop£ Pops reduced by §G-15%§!."
+
+civic_ds_nomads_cult: "§CNomads:§! Star Cult"
+civic_ds_nomads_cult_desc: "£ds_civic£§CDarkSpace§! \n\nThis empire decided to spend the life with mentally ascending and working for the greater good, instead of personal desires."
+
+civic_ds_nomads_evil: "§CNomads:§! Darkseekers"
+civic_ds_nomads_evil_desc: "£ds_civic£§CDarkSpace§! \n\nLegends say this empire lives only in the dark void. Their attacks are quick and decisive, and they leave as fast as they come."
+civic_ds_nomads_evil_effects: "Can only play the '§HSavages§! ['concept_ds_nomad_setups']'. \nHas huge £opinion£ §YOpinion§! §Rpenalties§! from all other empires. \nWhen bombarding a (non-artificial) planet to §R100% Devastation§!: \n- §Y50%§! Chance to turn it into a §H$pc_nuked$§!, rewarding £unity£ \n- §Y50%§! Chance to turn it into a §H$pc_broken$§!, rewarding £minerals£"
+civic_ds_nomads_evil_limit: "Does NOT have any other homicidal or similar civic active."
+triggered_opinion_civic_ds_nomads_evil_us: "Darkseekers (Genocidal)"
+triggered_opinion_civic_ds_nomads_evil_them: "Darkseekers (Genocidal)"
+dsN.312.name: "Firestorm on §H[seeked_planet.GetName]§!!" # Nuked
+dsN.312.desc: "§LIn a recent attack the population of §H[ds_darkseekers_victim.GetName]§! got shocked by the brutal bombardment of the planet §H[seeked_planet.GetName]§!. The constant firestorm turned the surface into a wasteland without any survivors. \n\nWhat a glorious victory!§!"
+dsN.313.name: "Destruction of §H[seeked_planet.GetName]§!!" # Destroyed
+dsN.313.desc: "§LIn a recent attack the population of §H[ds_darkseekers_victim.GetName]§! got shocked by the brutal bombardment of the planet §H[seeked_planet.GetName]§!. The constant attack was so heavy, that weak parts of the planet's crust began to crack and shatter. \n\nImmense eruptions ultimately destroyed the entire atmosphere and turned all existing life into dust.§!"
+dsN.314.name: "Firestorm on §P[Root.GetName]§!!" # Nuked
+dsN.314.desc: "§LHostile forces of the nation of §H[ds_darkseekers_country.GetName]§! attacked one of our colonies and conducted a brutal orbital bombardment. \n\nAfter countless days of resistence, the local armies and population had to be evacuated and the planet §H[Root.GetName]§! got declared as lost. \n\nThere are no reports of survivors. It is a catastrophy...§!"
+dsN.315.name: "Destruction of §P[Root.GetName]§!!" # Destroyed
+dsN.315.desc: "§LHostile forces of the nation of §H[ds_darkseekers_country.GetName]§! attacked one of our colonies and conducted a brutal orbital bombardment. \n\nAfter countless days of resistence, the planet §H[Root.GetName]§! got inevitably declared as lost. \n\nHowever... the world broke before the guards did, so no regular evacuation was possible. There are no reports of survivors, it is a catastrophy.§!"
+
+# Ascension Perks
+ap_ds_nomads: "Nomadic Factories"
+ap_ds_nomads_desc: "£ds_civic£§CDarkSpace§! £ds_civic£§CNomad Origin§! \nThe rapid growth of our empire reached the maximum capacities of the Arks. We should split our production to other parts of our fleet to keep the Arks free for more important tasks."
+ap_ds_nomads_tooltip: "Unlocks §YTier 2§! §HNomad-Components§! to produce resources.\n\n"
+
+ap_ds_nomads_tier3: "Rise of the Void"
+ap_ds_nomads_tier3_desc: "£ds_civic£§CDarkSpace§! £ds_civic£§CNomad Origin§! \nTo keep up with common colonies and their steady improvements, we should equip our ships with new technologies & components."
+ap_ds_nomads_tier3_tooltip: "Unlocks §YTier 3§! §HNomad-Components§! to produce resources. \nOnly for the §YAlarai§! and §YArks§!.\n\n"
+
+ap_ds_nomads_planets: "Back To The Roots"
+ap_ds_nomads_planets_desc: "£ds_civic£§CDarkSpace§! £ds_civic£§CNomad Origin§! \nEven though we prefer the free space, conquered planets could become a very viable asset to ensure our power and the growth of our people."
+ap_ds_nomads_planets_effect: "§HUnlocks Policy:§! Nomad-Outposts \nEnables a more efficient use of planets and normal £pop£ Pops. \n\nAccepting this Ascension Perk §Rblocks§! the §Y6th§! §YColony-Module§! in the §YNomad-Administration§!."
+
+ap_ds_nomads_poplimit: "Boundless Horizons"
+ap_ds_nomads_poplimit_desc: "£ds_civic£§CDarkSpace§! £ds_civic£§CNomad Origin§! \nNew technologies vastly increase the quality of life in all aspects of living in space. Ships and stations become havens for everyone."
+ap_ds_nomads_poplimit_effect: "The §YCrew Capacity§! limits the maximum amount of §HManpower§! a Nomad-Empire can grow."
+
+# Technologies
+tech_ds_nomad_pk: "Planet Disintegrator"
+tech_ds_nomad_pk_desc: "Disintegrates planets of the class §YMolten§!, which generates resources."
+tech_ds_nomads_ark_hull: "Protect the Arks!"
+tech_ds_nomads_ark_hull_desc: "Our Arks are the lifeline of our civilization. To protect them has the highest priority."
+mod_shipsize_ds_nomads_ark_hull_add: "Hull points (Ark)"
+mod_shipsize_ds_nomads_main_hull_add: "Hull points (Alarai)"
+tech_ds_nomads_gov: "Administration-Module"
+tech_ds_nomads_gov_desc: "Manages our empire with high efficiency to produce £influence£."
+tech_ds_nomads_military: "Nomadic Warfare"
+tech_ds_nomads_military_desc: "For the protection of our fleet, special components & resources are required. Allows the production of exotic materials for special components."
+tech_ds_nomads_tier2: "Cosmic Production (I)"
+tech_ds_nomads_tier2_desc: "Enables access to tier-2 components for the shipclasses Ark and Alarai."
+tech_ds_nomads_tier3: "Cosmic Production (II)"
+tech_ds_nomads_tier3_desc: "Enables access to tier-3 components for the shipclasses Ark and Alarai."
+
+tech_repeatable_nomads_energy: "Nomadic Reactors"
+tech_repeatable_nomads_energy_desc: "Improved reactors increase our monthly energy income."
+tech_repeatable_nomads_minerals: "Nomadic Mineral Harvester"
+tech_repeatable_nomads_minerals_desc: "More efficient drones and the scan of possible deposits increase our monthly mineral income."
+tech_repeatable_nomads_alloys: "Nomadic Forges"
+tech_repeatable_nomads_alloys_desc: "The use of better machines and resources increases our production."
+tech_repeatable_nomads_unity: "Nomadic Society"
+tech_repeatable_nomads_unity_desc: "Our people do everything to increase our society and intergalactic power."
+
+tech_ds_nomads_pops: "Interstellar Society I"
+tech_ds_nomads_pops_desc: "This people will forever avoid any planetary ground and thrives especially well in space on ships or stations."
+tech_ds_nomads_pops_effect: "Creates automatically §G+1§! §HManpower§! every §Y2 Years§!, if at least §Y1§! £housing£§YNomad-Housing§! is available."
+
+tech_ds_nomads_pops2: "Interstellar Society II"
+tech_ds_nomads_pops2_desc: "This people will forever avoid any planetary ground and thrives especially well in space on ships or stations."
+tech_ds_nomads_pops2_effect: "Creates automatically §G+2§! §HManpower§! every §Y2 Years§!, if at least §Y2§! £housing£§YNomad-Housing§! are available."
+
+tech_repeatable_nomads_poplimit: "Interstellar Engineering"
+tech_repeatable_nomads_poplimit_desc: "Inceases the total amount of Manpower a Nomad-Empire can grow."
+
+dsNV.1.name: "Increased Growth" # Techs
+dsNV.1.desc: "The research of a §YTechnology§! in the category §YPop Growth§! grants us the following bonus: \n\n§HMonthly Growth (Manpower):§! §G+1§!"
+dsNV.2.name: "Improved Housing" # Techs
+dsNV.2.desc: "The research of a §YTechnology§! in the category §YHousing§! grants the following bonus: \n\n£housing£§HHousing (Nomads):§! §G+5§!"
+dsNV.3.name: "Increased Growth" # Perks
+dsNV.3.desc: "The adoption of an §YAscension Perk§! in the category §YPop Growth§! & §YTrait Points§! grants us the following bonus: \n\n§HMonthly Growth (Manpower):§! §G+1§!"
+dsNV.4.name: "Increased Growth" # Tradition
+dsNV.4.desc: "The finishing of a §YTradition§! in the category §YPop Growth§! & §YTrait Points§! grants us the following bonus: \n\n§HMonthly Growth (Manpower):§! §G+1§!"
+dsNV.5.name: "Increased Growth" # Mid-Endgame tech.
+dsNV.5.desc: "The research of a §YTechnology§! in the category §YPop Growth§! grants us the following bonus: \n\n§HGrowth (Manpower):§! §G+1§! Manpower every §Y2 years§!. \nRequires at least §Y1§! §YAvailable§! £housing£§YHousing§!, or the bonus §Rdisappears§!."
+dsNV.50.desc: "The research of a §YTechnology§! in the category §YPop Growth§! grants us the following bonus: \n\n§HGrowth (Manpower):§! §G+2§! Manpower every §Y2 years§!. \nRequires at least §Y2§! §YAvailable§! £housing£§YHousing§!, or the bonus §Rdisappears§!."
+dsNV.6.name: "Rise of Science"
+dsNV.6.desc: "The research of a §YTechnology§! in the category §YResearchers & Research-Buildings§! grants the following bonus: \n\n£mod_job_researcher_add£ £mod_job_alloy_drone_add£ £mod_unity_produces_add£ §HSpecialist-Slots:§! §G+2§!"
+
+# Ark components TIER 1
+DS_NOMADS_ARK_ENERGY: "§BModular Reactor§!"
+DS_NOMADS_ARK_ENERGY_DESC: "This very efficient but compact reactor provides enough energy for our entire empire. \n\n§GProduces:§! 15£energy£"
+
+DS_NOMADS_ARK_MINERALS: "§BMineral Harvester§!"
+DS_NOMADS_ARK_MINERALS_DESC: "Drones collect minerals from the entire star system and bring them to the Ark. \n\n§GProduces:§! 4£minerals£ \n§RUpkeep:§! 2£energy£"
+
+DS_NOMADS_ARK_ALLOYS: "§BModular Forge§!"
+DS_NOMADS_ARK_ALLOYS_DESC: "Transforms minerals into alloys, the most important resource for our empire. \n\n§GProduces:§! 6£alloys£ \n§RUpkeep:§! 4£minerals£"
+
+DS_NOMADS_ARK_UNITY: "§BSocial Apartment Complex§!"
+DS_NOMADS_ARK_UNITY_DESC: "Improves the living standards of our people. \n\n§GProduces:§! 10£unity£ \n§RUpkeep:§! 7£energy£"
+
+DS_NOMADS_ARK_RESEARCH: "§BResearch-Module§!"
+DS_NOMADS_ARK_RESEARCH_DESC: "High-performance computers and laboratories to increase our technical horizon. \n\n§GProduces:§! 7£physics_research£, 7£society_research£, 7£engineering_research£ \n§RUpkeep:§! 7£energy£"
+
+#DS_NOMADS_ARK_RARE: "§BResource-Synthesis§!"
+#DS_NOMADS_ARK_RARE_DESC: "Produces rare resources for special components. \n\n§GProduces:§! 1£volatile_motes£, 1£exotic_gases£, 1£rare_crystals£ \n§RUpkeep:§! 20£minerals£"
+
+DS_NOMADS_ARK_GOV: "§BAdministration-Module§!"
+DS_NOMADS_ARK_GOV_DESC: "Manages our empire with high efficiency. \n\n§GProduces:§! 1£influence£ 10£unity£ \n§RUpkeep:§! 25£energy£"
+
+DS_NOMADS_ARK_MILITARY: "§BAnomaly-Observatory§!"
+DS_NOMADS_ARK_MILITARY_DESC: "Makes it possible to examine unknown elements and experiments with possible uses. \n\n§GProduces:§! 3£sr_living_metal£ \n§RUpkeep:§! 20£energy£ 25£minerals£"
+
+DS_NOMADS_ARK_FOOD: "§BHydroponics Bay§!"
+DS_NOMADS_ARK_FOOD_DESC: "Produces food for our people. \n\n§GProduces:§! 10£food£ \n§RUpkeep:§! 5£energy£"
+
+DS_NOMADS_ARK_MATTER: "§BParticle Accelerator§!"
+DS_NOMADS_ARK_MATTER_DESC: "A compact unit for special research. \n\n§GProduces:§! 2£sr_dark_matter£ \n§RUpkeep:§! 20£energy£ 5£minerals£"
+
+# Ark components TIER 2
+DS_NOMADS_ARK_ENERGY2: "§BModular Reactor§!"
+DS_NOMADS_ARK_ENERGY2_DESC: "This very efficient but compact reactor provides enough energy for our entire empire. \n\n§GProduces:§! 35£energy£"
+
+DS_NOMADS_ARK_MINERALS2: "§BMineral Harvester§!"
+DS_NOMADS_ARK_MINERALS2_DESC: "Drones collect minerals from the entire star system and bring them to the Ark. \n\n§GProduces:§! 8£minerals£ \n§RUpkeep:§! 5£energy£"
+
+DS_NOMADS_ARK_ALLOYS2: "§BModular Forge§!"
+DS_NOMADS_ARK_ALLOYS2_DESC: "Transforms minerals into alloys, the most important resource for our empire. \n\n§GProduces:§! 12£alloys£ \n§RUpkeep:§! 8£minerals£"
+
+DS_NOMADS_ARK_UNITY2: "§BSocial Apartment Complex§!"
+DS_NOMADS_ARK_UNITY2_DESC: "Improves the living standards of our people. \n\n§GProduces:§! 20£unity£ \n§RUpkeep:§! 7£energy£"
+
+DS_NOMADS_ARK_RESEARCH2: "§BResearch-Module§!"
+DS_NOMADS_ARK_RESEARCH2_DESC: "High-performance computers and laboratories to increase or technical horizon. \n\n§GProduces:§! 10£physics_research£, 10£society_research£, 10£engineering_research£ \n§RUpkeep:§! 10£energy£"
+
+#DS_NOMADS_ARK_MILITARY2: "§BAnomaly-Observatory§!"
+#DS_NOMADS_ARK_MILITARY2_DESC: "Makes it possible to examine unknown elements and experiments with possible uses. \n\n§GProduces:§! 2£sr_living_metal£ \n§RUpkeep:§! 35£energy£ 30£minerals£"
+
+DS_NOMADS_ARK_FOOD2: "§BHydroponics Bay§!"
+DS_NOMADS_ARK_FOOD2_DESC: "Produces food for our people. \n\n§GProduces:§! 20£food£ \n§RUpkeep:§! 10£energy£"
+
+# Ark components TIER 3
+DS_NOMADS_ARK_ENERGY3: "§BModular Reactor§!"
+DS_NOMADS_ARK_ENERGY3_DESC: "This very efficient but compact reactor provides enough energy for our entire empire. \n\n§GProduces:§! 55£energy£"
+
+DS_NOMADS_ARK_MINERALS3: "§BMineral Harvester§!"
+DS_NOMADS_ARK_MINERALS3_DESC: "Drones collect minerals from the entire star system and bring them to the Ark. \n\n§GProduces:§! 16£minerals£ \n§RUpkeep:§! 8£energy£"
+
+DS_NOMADS_ARK_ALLOYS3: "§BModular Forge§!"
+DS_NOMADS_ARK_ALLOYS3_DESC: "Transforms minerals into alloys, the most important resource for our empire. \n\n§GProduces:§! 20£alloys£ \n§RUpkeep:§! 10£minerals£"
+
+DS_NOMADS_ARK_UNITY3: "§BSocial Apartment Complex§!"
+DS_NOMADS_ARK_UNITY3_DESC: "Improves the living standards of our people. \n\n§GProduces:§! 35£unity£ \n§RUpkeep:§! 7£energy£"
+
+DS_NOMADS_ARK_RESEARCH3: "§BResearch-Module§!"
+DS_NOMADS_ARK_RESEARCH3_DESC: "High-performance computers and laboratories to increase or technical horizon. \n\n§GProduces:§! 15£physics_research£, 15£society_research£, 15£engineering_research£ \n§RUpkeep:§! 15£energy£"
+
+#DS_NOMADS_ARK_MILITARY3: "§BAnomaly-Observatory§!"
+#DS_NOMADS_ARK_MILITARY3_DESC: "Makes it possible to examine unknown elements and experiments with possible uses. \n\n§GProduces:§! 3£sr_living_metal£ \n§RUpkeep:§! 35£energy£ 30£minerals£"
+
+DS_NOMADS_ARK_FOOD3: "§BHydroponics Bay§!"
+DS_NOMADS_ARK_FOOD3_DESC: "Produces food for our people. \n\n§GProduces:§! 30£food£ \n§RUpkeep:§! 15£energy£"
+
+# Basic ship components
+DS_ARK_THRUSTER: "Ark-Thruster"
+DS_ARK_THRUSTER_DESC: ""
+DS_ARK_REACTOR: "Ark-Reactor"
+DS_ARK_REACTOR_DESC: ""
+DS_ARK_COMPUTER: "Central-Ark-Administration"
+DS_ARK_COMPUTER_DESC: ""
+DS_NOMADS_ARMOR: "Void Armor"
+DS_NOMADS_ARMOR_DESC: "This armor made out of £sr_living_metal£ and is so complex, its quality is unique in the entire galaxy."
+DS_NOMADS_ARMOR_SMALL: "Small Void Armor"
+DS_NOMADS_ARMOR_MEDIUM: "Medium Void Armor"
+DS_NOMADS_ARMOR_LARGE: "Large Void Armor"
+
+# Reaver Traditions
+tradition_ds_cosmic_reavers: "Cosmic Reavers"
+tradition_ds_cosmic_reavers_desc: "§CNomads:§! Attacking is just a form of defending yourself."
+tr_ds_reavers_adopt: "Reavers Tradition"
+tr_ds_reavers_finish: "Reavers Tradition"
+tr_ds_reavers_orbital: "Menace of the Void"
+tr_ds_reavers_orbital_delayed: "Coming from the large empty space, no defending force will ever expect us."
+tr_ds_reavers_war: "No Retreat"
+tr_ds_reavers_war_delayed: "We have no static home, so we have nothing to lose."
+tr_ds_reavers_upkeep: "Optimized Utilization"
+tr_ds_reavers_upkeep_delayed: "Improved reactors and components decrease the upkeep of our ships."
+tr_ds_reavers_ships: "Automated Shipyards"
+tr_ds_reavers_ships_delayed: "Modular and automatic shipyards reduce the cost & time of complex construction stages."
+tr_ds_reavers_terravores: "Planet-Eaters"
+tr_ds_reavers_terravores_desc: "Unlocks the technology for the megastructure §YPlanet-Disintegrator§!, which melts planets to gain large amount of resources. The planet will be §Rdestroyed§!. Only works on §YMolten planets§!."
+tr_ds_reavers_terravores_delayed: "Some planets have an unstable surface, which could be cracked by us without big effort to gain hidden resources."
+
+# Voyager Traditions
+tradition_ds_cosmic_voyagers: "Cosmic Voyagers"
+tradition_ds_cosmic_voyagers_desc: "§CNomads:§! We own the void and are masters in defending it."
+tr_ds_voyagers_adopt: "Voyager Tradition"
+tr_ds_voyagers_finish: "Voyager Tradition"
+tr_ds_voyagers_starbase_cost: "Endless Expanse I"
+tr_ds_voyagers_starbase_cost_delayed: "Starbases are the only static defence we have. Increasing this network of metal can be an important strategic asset for our survival."
+tr_ds_voyagers_starbase_cap: "Endless Expanse II"
+tr_ds_voyagers_starbase_cap_delayed: "Due the conquest of further areas in the galaxy our forces are stretched thin. More outposts could be useful."
+tr_ds_voyagers_starbase_stats: "Endless Expanse III"
+tr_ds_voyagers_starbase_stats_delayed: "Last contacts with other empires proved our point - always plan ahead."
+tr_ds_voyagers_resources: "Resource Silos"
+tr_ds_voyagers_resources_delayed: "Keeping remaining resources for bad times could be helpful in future conflicts."
+tr_ds_voyagers_home: "Rulers of the Void"
+tr_ds_voyagers_home_delayed: "Our fleets rule the void. We know every corner of the galaxy and will use this knowledge against our enemies."
+
+# Voidborn Traditions
+tradition_ds_void: "Voidborn"
+tradition_ds_void_desc: "§CNomads:§! The conquest of space has begun."
+tr_ds_void_adopt: "Voidborn Tradition"
+has_nomad_menu_perk6: "§RRequires all §Y6§! Colony-Modules (Nomad Administration).§!"
+tr_ds_void_finish: "Voidborn Tradition"
+tr_ds_void_estate: "Interstellar Estate"
+tr_ds_void_estate_delayed: "We can only survive if we protect our capital ships with everything we have."
+tr_ds_void_estate_desc: "New component: §Y$DS_NOMADS_ARMOR$§! \nNew component: $DS_NOMADS_ARK_MILITARY$ \nNew component: $DS_NOMADS_ARK_MATTER$"
+tr_ds_void_inquisitions: "Planetary Inquisitions"
+tr_ds_void_inquisitions_delayed: "Special task forces survey planets for potential resource grounds & contact with local species."
+tr_ds_void_ftl: "Next-Gen Jumpdrives"
+tr_ds_void_ftl_delayed: "A very mobile capital ship is required to ensure successful tactical retreats."
+tr_ds_void_infrastructure: "Anti-Gravity Infrastructure"
+tr_ds_void_infrastructure_delayed: "The long time we spent in space gave us enough experience to create the best environment for our people."
+#tr_ds_void_infrastructure_desc: "Increases the §YMonthly Growth (Manpower)§! by §G+4§!."
+tr_ds_void_dysonswarm: "Dyson-Swarm"
+tr_ds_void_dysonswarm_delayed: "Due our nature, large projects that require a fixed location are not possible. The only solution is a mobile platform."
+tr_ds_void_dysonswarm_desc: "§HUnlocks Special Project:§! Dyson-Swarm Project \nA Dyson-Swarm is a §Ymobile megastructure§! of several small parts or drones which can harvest a star's energy. \nThis structure can §Ychange§! its §Ylocation§!.\n\n"
+
+# Starseekers Traditions
+tradition_ds_starseekers: "Starseekers"
+tradition_ds_starseekers_desc: "§CNomads:§! Endless discoveries are waiting for us."
+tr_ds_starseekers_adopt: "Starseekers Tradition"
+tr_ds_starseekers_desc: "Increases £housing£§YHousing§! (Nomads) by §G+15§!."
+tr_ds_starseekers_finish: "Starseekers Tradition"
+tr_ds_starseekers_naval: "Galactic Campaigns"
+tr_ds_starseekers_naval_delayed: "Our fleet represents our entire existence."
+tr_ds_starseekers_server: "Inbuilt Server Algorithms"
+tr_ds_starseekers_server_delayed: "Server-modules built into our capital ships increase our research by a large margin."
+tr_ds_starseekers_server_desc: "Increases £mod_job_researcher_add£ £mod_job_alloy_drone_add£ £mod_unity_produces_add£ §YSpecialist-Slots§! (Nomads) by §G+4§!."
+tr_ds_starseekers_giants1: "Giants I"
+tr_ds_starseekers_giants1_delayed: "We always integrate the newest technologies into the construction of our ships. This is especially important when defending our people."
+tr_ds_starseekers_giants2: "Giants II"
+tr_ds_starseekers_giants2_delayed: "We always integrate the newest technologies into the construction of our ships. This is especially important when defending our people."
+tr_ds_starseekers_spaceborn: "Spaceborn"
+tr_ds_starseekers_spaceborn_delayed: "Our people are perfectly adapted to life in space."
+#tr_ds_starseekers_spaceborn_desc: "Increases the §YMonthly Growth (Manpower)§! by §G+2§!."
+
+# Dynamic Industry Traditions
+tradition_ds_void_industry: "Dynamic Industry"
+tradition_ds_void_industry_desc: "§CNomads:§! We use every advantage nature is providing us."
+tr_ds_void_industry_adopt: "Dynamic Industry Tradition"
+tr_ds_void_industry_finish: "Dynamic Industry Tradition"
+tr_ds_void_metropolis: "Levitating Metropolis"
+tr_ds_void_metropolis_delayed: "Our population is steadily increasing. New habitable compartments in Arks, stations and outposts will grant us a wider span of available living space."
+tr_ds_void_momentum: "Momentum"
+tr_ds_void_momentum_delayed: "Rapid movement is necessary to protect our ships."
+tr_ds_void_fervor: "Fervor"
+tr_ds_void_fervor_delayed: "Arks are the lifeline of our empire. Constructing them quickly is absolutely needed to boost up our production."
+tr_ds_void_ss: "Self Sufficient"
+tr_ds_void_ss_delayed: "Automatic mining drones collect resources from system the ship is currently visiting."
+tr_ds_void_assembly: "Mobile Assembly Lines"
+tr_ds_void_assembly_delayed: "We don't always have the time to fortify a system with stations. Mobile shipyards will fill up the gap of needed ship construction in friendly territory - or behind enemy lines!"
+tr_ds_void_assembly_desc: "Unlocks the §YMobile Shipyard§! §HShip Type§! that can construct ships anywhere."
+
+
+# Politics (Tendency) Traditions
+tradition_ds_void_politics: "Tendency"
+tradition_ds_void_politics_desc: "§CNomads:§! The politics of Nomads are truly extraterrestrial."
+tr_ds_void_maintenance: "Maintenance Standards"
+tr_ds_void_maintenance_delayed: "Space is dangerous, therefore preemptively taking care of our home is a necessity."
+tr_ds_void_dedicated: "Dedicated Leadership"
+tr_ds_void_dedicated_delayed: "We may not have the largest army, but for sure some very effective raiding parties."
+tr_ds_void_dedicated_desc: "Unlocks the §Y$ds_nomad_warform_2$§! §HArmy Type§! after researching £society_research£§Y$tech_doctrine_fleet_size_2$§!. When using the §YSpawn Raiders§! §HEdict§!, this will now be the resulting army type."
+tr_ds_void_statecraft: "Nomadic Statecraft"
+tr_ds_void_statecraft_delayed: "For us, there are no borders. From the mighty flagship Alarai, to the Arks and all smaller vessels - we must act together as one to survive!"
+tr_ds_void_statecraft_desc: "§YUnlocks Agenda:§! Extraterrestrial Growth \n§YUnlocks Agenda:§! Ship Factories \n§YUnlocks Agenda:§! Starbase Laboratories"
+tr_ds_void_subsidies: "Economic Subsidies"
+tr_ds_void_subsidies_delayed: "Our fleets must act more independently while being in distant star systems. This can be achieved by providing them with the right components for self-sufficiency."
+tr_ds_void_subsidies_desc: "§YUnlocks Edict:§! Integrated Solar Panels"
+tr_ds_void_investments: "Social Investments"
+tr_ds_void_investments_delayed: "No society can grow without investments in the right sectors."
+tr_ds_void_investments_desc: "Unlocks the §YSociety Subsidies§! Policies."
+
+# Megastructures
+ds_nomads_is_molten: "Only §YMolten worlds§! are a valid target!"
+ds_nomads_pk: "Planet-Disintegrator"
+ds_nomads_pk_DESC: "This orbital structure will split the entire planet into its usable elements. ( £energy£ £minerals£ £sr_dark_matter£ )"
+ds_nomads_pk_MEGASTRUCTURE_DETAILS: "Splits the entire planet into its usable elements and generates a lot of resources."
+ds_nomads_pk_final: "§GHarvest Planet§!"
+ds_nomads_pk_final_DESC: "The Planet will be destroyed and we gain resources."
+
+ds_nomads_gateway: "Nomad-Gate"
+ds_nomads_gateway_DESC: "An artificial wormhole to travel between certain systems, the creators seem to be specialised for intergalactic travel. §YIn case of war everyone can use these gates.§!"
+ds_nomads_gateway_MEGASTRUCTURE_DETAILS: "Creates an FTL network for the Nomads and their allies."
+ds_nomads_gateway_del: "§RRemove Nomad-Gate§!"
+ds_nomads_gateway_del_DESC: "Removes this special gateway, but makes it possible to construct a new Nomad-Gate in this or another system."
+NOMADS_BYPASS: "Nomad-Gate"
+
+# Situation log
+ds_nomads_chain_title: "§BVoid Overlords§!"
+ds_nomads_chain_desc: "Nomads have §Y2§! playstyles: §GDiplomats§! & §GSavages§!. Both work in single- and multiplayer and have the same new components, techs, traditions, perks and ships. Nomads can also build §YNomad-Gates§! (megastructure) to connect the starting planet with the galaxy. Characteristics are: \n\n§GDiplomats§!: \n- access to diplomacy & federations \n- can not travel through closed borders \n- needs at least 1 £pop£, or game over! \n- better for multiplayer \n\n§GSavages§!: \n- can ignore closed borders \n- does not need any planet or a single £pop£! \n- limited diplomacy & no federations possible \n- better for roleplay/singleplayer"
+
+DS_NOMADS: "§BPerks & Traditions§!"
+DS_NOMADS_DESC: "There are §Y2§! new traditions (marked §Bblue§!) which improve the economy and military (there are also new policies). \n\nPerk §GNomadic Factories§!: Unlocks §Ytier2§! components and the shipclass §YFabricator§!. \n\nPerk §GRise of the Void§!: Unlocks §Ytier3§! components. §RNote§!: Finish the situation-log to unlock the needed technologies. \n\nPerk §GReturn§!: Starts a unique §Rcrisis path§!. Finish it to destroy every empire and win the game. \n\nPerk §GBack To The Roots§!: Unlocks a policy to make use of planets & jobs."
+
+DS_NOMADS2: "§BNomad-Ships§!"
+DS_NOMADS2_DESC: "Nomads have §Y3§! special shipclasses with a building limit of §Y1§! each class. Their FTL-jump-range is very big to ensure they reach the galaxy and Void-Control (homesystem). \n\n§GAlarai§!: \n- is the flagship with §Y18§! components \n- can build/repair up to §Y10§! ships \n- some special components available \n\n§GArk§!: \n- up to §Y14§! components \n- can build/repair up to §Y8§! ships \n- has nearly alle Nomad-components unlocked \n\n§GFabricator§!: \n- has §Y10§! slots for production components (only for basic resources) \n- needs the perk §YNomadic Factories§!"
+
+DS_NOMADS3: "§BManpower§! (Nomad £pop£)"
+DS_NOMADS3_DESC: "§HManpower§! are the £pop£ of Nomads. They are only visible in the menu (see §YEconomy I - Menu§!). Manpower can be increased with: \n\n1. The planetary §Ydecision§! §BRecruitment§! exchanges 1 £pop£ for §G+1§! §HManpower§!. Its possible with all £pop£, which have §Ygood living standards§!. \n§RNote:§! In §YDiplomats§!-mode the very last  £pop£ can not be removed, otherwise the game will end. \n\n2. All newly grown £pop£ become Manpower and dont spawn on their planet. Can be avoided if the building §YVoid-Outpost§! is on the planet. \n\n3. Each year we receive an extra §G+2§! Manpower."
+
+DS_NOMADS4: "§BEconomy I - Menu§!"
+DS_NOMADS4_DESC: "The §Yedict§! §BNomad-Administration§! opens the menu to allocate our available §HManpower§!. \n\nOne Manpower produces resources and causes upkeep in £energy£ & £minerals£ - exact numbers are shown in the mentioned menu. \n\nThe total production of each resource is shown in the §Ygovernment§! window as modifier."
+
+DS_NOMADS5: "§BEconomy II - Basics§!"
+DS_NOMADS5_DESC: "If a resource reaches §R0§! and deficits begin to kick in, we receive heavy §Rnegative§! ship modifiers. You can see them in the §Ygovernment window§!. They will stay for §Y30§! days or longer, if our economy doesnt improve. \n\nNew §Yrepeatable technologies§! are available. They replace the normal techs that improve job£job£-output for £energy£ £minerals£ £alloys£ £unity£ \n\nThe ship types §YAlarai§!, §YArche§! & §YFabricator§! have special §Ycomponents§! that produce resources (§Y3§! tiers)."
+
+DS_NOMADS6: "§BArk-Utilization I§!"
+DS_NOMADS6_DESC: "Our empire experiences a change with unknown results. Rising fronts need a better adiminstration and wise government. \n\nUnlocks the technology for the §BAdministration-Modules§! for Arks, which produces 1£influence£ and 10 £unity£."
+
+DS_NOMADS7: "§BArk-Utilization II§!"
+DS_NOMADS7_DESC: "Technological progress secures the supremecy of every known empire. We have to use our limited possibilities in a wise way to reach its full potential. Our journey across the galaxy made it possible to discover unknown elements. Using them for new technologies could become a big advantage. \n\nUnlocks the technology for the §BAnomaly-Observatory§! for Arks, which produces 3£sr_living_metal£. Unlocks the technology for the §BParticle Accelerator§! for the Alarei, which produces 2£sr_dark_matter£. §GNew components§! will be available."
+
+# Policies
+policy_ds_nomads_war_doctrine: "§BNomads:§! War Doctrine"
+policy_ds_nomads_war_doctrine_desc: ""
+ds_nomads_defense_in_depth_doctrine: "Defense in Depth"
+ds_nomads_defense_in_depth_doctrine_desc: "The defence of our territory has the highest priority."
+ds_nomads_hit_and_run_doctrine: "Hit and Run"
+ds_nomads_hit_and_run_doctrine_desc: "Quick attacks cause chaos in enemy lines."
+ds_nomads_rapid_deployment_doctrine: "Rapid Deployment"
+ds_nomads_rapid_deployment_doctrine_desc: "A quick mobilization is the key to win in modern warfare."
+ds_nomads_no_retreat_doctrine: "No Retreat"
+ds_nomads_no_retreat_doctrine_desc: "We live in the void, we have no place to retreat."
+policy_ds_nomads_economic_policy: "§BNomads:§! Economy Focus"
+policy_ds_nomads_economic_policy_desc: ""
+ds_nomads_economic_policy_civilian: "Focus on starbases"
+ds_nomads_economic_policy_civilian_desc: ""
+ds_nomads_economic_policy_balanced: "Balanced"
+ds_nomads_economic_policy_balanced_desc: ""
+ds_nomads_economic_policy_military: "Focus on ships"
+ds_nomads_economic_policy_military_desc: ""
+
+policy_ds_nomads_planets_policy: "§BNomad-Outposts§!"
+policy_ds_nomads_planets_policy_desc: "Changes the strength of the Nomad-modifier regarding planets, jobs and £pop£-growth. The Economy-Menu will still stay available for both options."
+ds_nomads_planets_on: "Habitability: Planets"
+ds_nomads_planets_on_desc: "£pop£-growth & job-output reduced by §H15%§! \nMonthly Growth (Manpower): §R0§!"
+ds_nomads_planets_off: "Habitability: Fleet"
+ds_nomads_planets_off_desc: "£pop£-growth & job-output reduced by §R99%§!. \nMonthly Growth (Manpower): §HDefault§!"
+
+policy_ds_nomads_economic_subsidies: "§BNomads:§! Society Subsidies"
+policy_ds_nomads_economic_subsidies_desc: ""
+ds_nomads_subsidies_balanced: "Balanced"
+ds_nomads_subsidies_balanced_desc: ""
+ds_nomads_subsidies_unity: "Promote Consensus"
+ds_nomads_subsidies_unity_desc: ""
+ds_nomads_subsidies_growth: "Improve Living Standards"
+ds_nomads_subsidies_growth_desc: ""
+ds_nomads_subsidies_starbase: "Improve Living Space"
+ds_nomads_subsidies_starbase_desc: ""
+
+# Crisis gameplay
+ap_ds_nomads_crisis: "Return"
+ap_ds_nomads_crisis_desc: "£ds_civic£§CDarkSpace§! £ds_civic£§CNomad Origin§!\nCountless generations ago our ancestors decided to leave their galaxy and look out for new discoveries to advance further in science, society, materials and simply to understand the universe. Sadly, this galaxy was a big mistake. Nothing here helps us in any way and there are enemies everywhere. We looked for freedom but got caged in this galaxy, a prison chosen by us."
+ap_ds_nomads_crisis_tooltip: "Allows us to progress towards §YBecoming the§! §RCrisis§!.\n\n"
+
+DS_NOMADS8: "Return"
+DS_NOMADS8_DESC: "The megastructure §GWormhole Assembly§! creates an intergalactic bridge between this galaxy and our true home. It will create a wormhole to open a gate back home! The only problem is.. this unstable bridge will cause such an immense recoil, that all kinds of known matter and elements will split into their atoms. Other civilizations will try to stop us, but there is no other way possible."
+
+requires_no_existing_ds_nomad_crisis: "There can only be Wormhole Assembly."
+nomad_assembly_0: "Wormhole Assembly Frame"
+nomad_assembly_0_DESC: "Stage: §R0§!/§G4§! - Creates a wormhole and wins the game. \n§RReaching stage 2 will declare us as crisis!§!"
+nomad_assembly_0_MEGASTRUCTURE_DETAILS: "Creates a wormhole to reach our true home."
+nomad_assembly_1: "Wormhole Assembly"
+nomad_assembly_1_DESC: "Stage: §R1§!/§G4§! - Creates a wormhole and wins the game. \n§RReaching stage 2 will declare us as crisis!§!"
+nomad_assembly_2: "Wormhole Assembly"
+nomad_assembly_2_DESC: "Stage: §R2§!/§G4§! - Creates a wormhole and wins the game."
+nomad_assembly_3: "Wormhole Assembly"
+nomad_assembly_3_DESC: "Stage: §R3§!/§G4§! - Creates a wormhole and wins the game."
+nomad_assembly_4: "Wormhole Assembly"
+nomad_assembly_4_DESC: "Stage: §R4§!/§G4§! - Opens the wormhole and creates the gate to reach our true home. §RAll life and matter will be destroyed!§!"
+
+tech_ds_nomads_crisis: "Wormhole Assembly"
+tech_ds_nomads_crisis_desc: "Creates a wormhole to reach our true home and §Gwins the game§! when finished."
+
+dsN.1001.name: "Trapped in freedom"
+dsN.1001.desc: "At the time when our ancestors decided to leave their galaxy to find true intergalactic freedom and discoveries, no one ever expected what will happen to us soon after that undertaking. This galaxy has nothing to offer for us, except many enemies which seek our extinction. Our old galaxy seems to be the only true place to reach our potential zenith of existence. Finding a way back has the highest priority now, doesnt matter the cost."
+
+dsN.1002.name: "Day of return"
+dsN.1002.desc: "The wormhole is open, our home is only a few steps away! Our fleets approach the intergalactic bridge and dont even look back. Everything behind them will soon be a scene of destruction and raging glowing atoms. The moment the gate closes, all life and matter will be devastated by the released energy. This is the needed sacrifice for an act, which will not leave any witnesses behind. Only we stay alive to teach the new generations about our terrible mistakes. Threatening and ending all life of another world to find personal salvation from a self-created prison, there is no bigger paradox possible..."
+dsN.1002.a: "Lets go back home!"
+
+# Army
+edict_nomad_alarai_army: "§BNomads:§! Mobilize Raiders"
+edict_nomad_alarai_army_desc: "Creates smaller raiding parties, which will enter the planets orbit to start small but wide-spread attacks."
+nomad_alarai_army_effect: "Spawns §G2§! §YNomad Armies§! near our flagship §HAlarai§!. \nIf we §Rdon't have the Alarai§!, there can be §Rno army§!! \n\nWe can still build normal armies on planets."
+ds_nomad_warform: "Nomad Army"
+ds_nomad_warform_desc: ""
+ds_nomad_warform_2: "Nomad Raiders"
+ds_nomad_warform_2_desc: ""
+
+# Building
+building_ds_nomads: "Void-Outpost"
+building_ds_nomads_desc: "Growing £pop£ will not be converted into §HManpower§! and stay on the planet - but can be turned into Manpower with the decision §BRecruitment§!. Works only if the building is not deactivated."
+
+# Dyson Swarm
+ds_dyson_swarm_chain_title: "Dyson-Swarm Project"
+ds_dyson_swarm_chain_desc: "§HBuilding the structure (first time):§! \nA Dyson-Swarm can be built on a §Ystar§! like a Dyson-Sphere. The §Yempire-limit§! is §Y1§!. \n\n§HRelocating the structure:§! \nTo move the structure, it can be §Yupgraded§! again with the final stage called "§YRelocation§!". Finishing it will §Rremove§! the §Rmegastructure§! from that system, but enables the §Yreconstruction§! in the same or another star system. \n\n§YRebuilding§! the Dyson-Swarm does only require §Yone stage§!, which is also much §Yfaster§! & §Ycheaper§! and it can be done everywhere."
+#DS_NOMADS_DYSONSWARM: "Introduction"
+#DS_NOMADS_DYSONSWARM_DESC: "§HBuilding the structure (first time):§! \nA Dyson-Swarm can be built on a §Ystar§! like a Dyson-Sphere. The §Yempire-limit§! is §Y1§!. \n\n§HRelocating the structure:§! \nTo move the structure, it can be §Yupgraded§! again with the final stage called "§YRelocation§!". Finishing it will §Rremove§! the §Rmegastructure§! from that system, but enables the §Yreconstruction§! in the same or another star system. \n\n§YRebuilding§! the Dyson-Swarm does only require §Yone stage§!, which is also much §Yfaster§! & §Ycheaper§! and it can be done everywhere."
+tech_ds_nomads_dysonswarm: "Dyson Swarm"
+tech_ds_nomads_dysonswarm_desc: "Due our nature, large projects that require a fixed location are not possible. The only solution is a mobile platform."
+
+dsN.20.name: "§H[From.GetName]§! Dyson-Swarm Completed"
+dsN.20.desc: "The §H[From.GetName]§! system's primary has now been completely enveloped by a Dyson-Swarm.\n\nOur engineers celebrate this as a great victory, and rightly so. We have achieved what only a handful of star empires in the history of the galaxy dared imagine - the total subjugation of a star."
+dsN.21.name: "§H[From.From.GetName]§! Dyson-Swarm Removed"
+dsN.21.desc: "We successfully removed the structure of the §H[From.From.GetName]§! system. It is now possible to send the Swarm into another solar system."
+dsN.22.name: "Dyson-Swarm Project - §GCompleted§!"
+dsN.22.desc: "Our engineers did the impossible - creating a plan & required technology for a large swarm of drones to harvest, store and redirect the energy of a star."
+
+ds_dyson_swarm_0: "Dyson-Swarm"
+ds_dyson_swarm_0_DESC: "A swarm of many solar-collector-drones that collects, stores & redirects the energy of a star. The creator of this marvelous masterpiece of engineering is able to move the swarm elsewhere."
+ds_dyson_swarm_0_MEGASTRUCTURE_DETAILS: "Countless solar-collector-drones collect, store and redirect the energy of a star to produce £energy£ Energy."
+ds_dyson_swarm_1: "Dyson-Swarm"
+ds_dyson_swarm_1_DESC: "A swarm of many solar-collector-drones that collects, stores & redirects the energy of a star. The creator of this marvelous masterpiece of engineering is able to move the swarm elsewhere."
+ds_dyson_swarm_2: "Dyson-Swarm"
+ds_dyson_swarm_2_DESC: "A swarm of many solar-collector-drones that collects, stores & redirects the energy of a star. The creator of this marvelous masterpiece of engineering is able to move the swarm elsewhere."
+ds_dyson_swarm_3: "Dyson-Swarm"
+ds_dyson_swarm_3_DESC: "A swarm of many solar-collector-drones that collects, stores & redirects the energy of a star. The creator of this marvelous masterpiece of engineering is able to move the swarm elsewhere."
+ds_dyson_swarm_4: "Dyson-Swarm"
+ds_dyson_swarm_4_DESC: "A swarm of many solar-collector-drones that collects, stores & redirects the energy of a star. The creator of this marvelous masterpiece of engineering is able to move the swarm elsewhere."
+ds_dyson_swarm_4_MEGASTRUCTURE_DETAILS: "Countless solar-collector-drones collect, store and redirect the energy of a star to produce £energy£ Energy."
+ds_dyson_swarm_del: "Relocation"
+ds_dyson_swarm_del_DESC: "§RRemoves§! the structure and enables the reconstruction somewhere else (but cheaper & faster)."
+
+# Misc Modifiers
+mod_shipsize_ds_nomads_ark_build_speed_mult: "Ark Build Speed"
+mod_ds_nomads_pop_limit_energy_produces_add: "§CCrew Capacity§!"
+mod_ds_nomads_pop_growth_energy_produces_add: "Manpower Growth (Nomads)"
+
+# Agendas - If names change, update tradition _desc!
+council_agenda_agenda_ds_nomads_growth_name: "§CNomads:§! Extraterrestrial Growth"
+council_agenda_agenda_ds_nomads_growth_desc: "   "
+agenda_ds_nomads_growth_mod: "Nomadic Focus (Growth)"
+agenda_ds_nomads_growth_mod_desc: ""
+
+council_agenda_agenda_ds_nomads_alloys_name: "§CNomads:§! Ship Factories"
+council_agenda_agenda_ds_nomads_alloys_desc: "   "
+agenda_ds_nomads_alloys_mod: "Nomadic Focus (Alloys)"
+agenda_ds_nomads_alloys_mod_desc: ""
+
+council_agenda_agenda_ds_nomads_bases_name: "§CNomads:§! Starbase Laboratories"
+council_agenda_agenda_ds_nomads_bases_desc: "   "
+agenda_ds_nomads_bases_mod: "Nomadic Focus (Bases)"
+agenda_ds_nomads_bases_mod_desc: ""
+
+
+
+# TESTING ONLY
+#ds_nomads_e_income: "#[FromFrom.ds_nomads_e_income] [DS_Nomads_E_Income_Loc]"
+#ds_nomads_e_income: "[FromFrom.E_TESTVAR] # [FromFrom.ds_nomad_menu_var_e_total] £energy£"
