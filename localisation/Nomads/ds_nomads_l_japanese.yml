@@ -7,7 +7,7 @@
 ds_button_tt_manpower: "労働力"
 ds_button_tt_manpower_desc: "労働力 Nomad の £pop£ §YPops§!. Their upkeep depends on their §Yquantity§! and our §Yauthority§!. The §HMonthly Growth§! is §G+5§!, but it can be increased with §YTechnologies§!, §YTraditions§! and §YAscension Perks§!. \n\nThe growth will §Rstop§!, if Nomad £housing£§HHousing§! is lower than §Y1§!.\nGrowth is temporarily §Rreduced§! while being §Rat war§! or after a §Rlost war§!§ . \n\nEvery populated planet has the §Ydecision§! §BRecruitment§! to turn £pop£ into Manpower. \n\n£opinion£ §EAll common technologies that improve £housing£Housing or £mod_pop_growth_speed£Pop Growth unlock also more §YNomad§!£housing£§YHousing§! or §YMonthly Growth (Manpower)§!."
 ds_button_tt_production: "生産"
-ds_button_tt_production_desc: "§YIncome & Upkeep§! is shown in the §HGovernment Window§! as §Ymodifier§! and also visible in the §H流浪の民の管理§!. \n\n§RResource Deficits§! add a §Rmodifier§! to our empire for §Y30 days§! or longer, if the situation doesn't improve. \n\nNew §HRepeatable Technologies§! will show up, which increase our basic income. \n\n£opinion£ §EProduction & Upkeep Values for §Y1§! allocated Manpower: \n1*£energy£ §Hproduces§! §G+10§!£energy£ \n1*£minerals£ §Hproduces§! §G+6§!£minerals£ §R-1§!£energy£ \n1*£alloys£ §Hproduces§! §G+6§!£alloys£ §R-5§!£minerals£ \n1*£unity£ §Hproduces§! §G+8§!£unity£ §R-2§!£energy£ \n1*£ds_research£ §Hproduces§! §G+18§!£ds_research£ §R-5§!£energy£ \n1*£food£ §Hproduces§! §G+7§!£food£ §R-1§!£energy£ \n1*£consumer_goods£ §Hproduces§! §G+7§!£consumer_goods£ §R-3§!£minerals£ \n1*£volatile_motes£/£exotic_gases£/£rare_crystals£ §Hproduces§! §G+3§! §R-9§! £minerals£§!"
+ds_button_tt_production_desc: "§Y収入 & 維持費§! is shown in the §HGovernment Window§! as §Ymodifier§! and also visible in the §H流浪の民の管理§!. \n\n§RResource Deficits§! add a §Rmodifier§! to our empire for §Y30 days§! or longer, if the situation doesn't improve. \n\nNew §HRepeatable Technologies§! will show up, which increase our basic income. \n\n£opinion£ §EProduction & Upkeep Values for §Y1§! allocated Manpower: \n1*£energy£ §Hproduces§! §G+10§!£energy£ \n1*£minerals£ §Hproduces§! §G+6§!£minerals£ §R-1§!£energy£ \n1*£alloys£ §Hproduces§! §G+6§!£alloys£ §R-5§!£minerals£ \n1*£unity£ §Hproduces§! §G+8§!£unity£ §R-2§!£energy£ \n1*£ds_research£ §Hproduces§! §G+18§!£ds_research£ §R-5§!£energy£ \n1*£food£ §Hproduces§! §G+7§!£food£ §R-1§!£energy£ \n1*£consumer_goods£ §Hproduces§! §G+7§!£consumer_goods£ §R-3§!£minerals£ \n1*£volatile_motes£/£exotic_gases£/£rare_crystals£ §Hproduces§! §G+3§! §R-9§! £minerals£§!"
 ds_button_tt_ships: "船"
 ds_button_tt_ships_desc: "Nomads have a unique capital ship called §HAlarai§!. It can carry §Yspecial components§! and it can only be §Ybuilt once§!. \n\nThe smaller capital ship called §HArk§! has similar components, but can be §Ybuilt more§! times. \n\n£opinion£ §EAll ships have components that §Yproduce resources§!. The §YTier2§! / §YTier3 - components§! require certain §YAscension Perks§!."
 ds_button_tt_perks: "パーク"
@@ -18,8 +18,8 @@ ds_button_tt_setups: "Setups"
 ds_button_tt_setups_desc: "Nomads have §Y2§! §Hdifferent playstyles§!. \n\n§HDiplomats§! require always at least §Y1§! £pop£ - otherwise the entire empire will §Rdie§!. They have all options for §Ydiplomacy§! available and can join §YFederations§! or the §YGalactic Community§!. They can §Rnot pass closed borders§!. \n\n§HSavages§! are the true Nomad experience. They require §Y0§! £pop£ and do not even need own territory. Can §Yignore closed borders§!. The empire will §Rdie§!, if the last §YAlarai§!, §YArk§! and §Ystarbase§! are destroyed! Savages are §Rlimited§! in §Ydiplomacy§!. \n\n£opinion£ §EBoth playstyles can utilize planets with the Ascension Perk §YBack To The Roots§! and turn £pop£ into Manpower or vice versa. \nBoth playstyles have new traditions, perks, the Manpower system, components & more.§!"
 ds_button_tt_vanilla: "Default-Techs"
 ds_button_tt_vanilla_desc: "Some common Stellaris-Technologies have an impact on the growth & economy of Nomads. \n\n£housing£§HHousing Technologies§! \nIncrease the §YNomad-£housing£Housing§! by §G+5§!. \n\n£mod_job_researcher_add£§HResearcher & Research-Building Technologies§! \nIncrease the amount of available £mod_job_researcher_add£ £mod_job_alloy_drone_add£ £mod_unity_produces_add£ §YSpecialist-Slots§! by §G+2§!. \n\n £pop£ §HPop-Growth Technologies§! \nIncrease the §YMonthly Growth (Manpower)§! by §G+1§!. \n\n£amenities£§HAscension Perks for Genetic / Machine Evolution§! \nIncreases the §YMonthly Growth (Manpower)§! by §G+1§! AFTER ACCEPTING a Perk (which changes/adds new £pop£ Pop Traits). \n\n£amenities£§HTraditons for Genetic / Machine Evolution§! \nIncreases the §YMonthly Growth (Manpower)§! by §G+1§! AFTER FINISHING a tradition (Genetics, Cybernetics, Synthetics). \n\n£opinion£ §EThe tradition §Y$tradition_expansion$§! also increases the §YMonthly Growth (Manpower)§! by §G+1§!.§! "
-ds_button_tt_limits: "§CCrew Capacity§!"
-ds_button_tt_limits_desc: "The §CCrew Capacity§! represents the amount available space in our mobile fleets. It can be increased with §YTraditions§!, §YAscension Perks§!, §YTechnologies§! and §YCivics§!. \n\n£opinion£ §EIf the §CCrew Capacity§! reaches the maximum, §Rno§! Manpower can grow anymore.§!"
+ds_button_tt_limits: "§C船員許容量§!"
+ds_button_tt_limits_desc: "The §C船員許容量§! represents the amount available space in our mobile fleets. It can be increased with §YTraditions§!, §YAscension Perks§!, §YTechnologies§! and §YCivics§!. \n\n£opinion£ §EIf the §C船員許容量§! reaches the maximum, §Rno§! Manpower can grow anymore.§!"
 
 ds_nomad_menu_var_e_total: "£energy£ 収入"
 ds_nomad_menu_var_m_total: "£minerals£ 収入"
@@ -109,7 +109,7 @@ ds_nomad_menu_var_value_fleet_total: "[FromFrom.ds_nomad_menu_var_fleet_total] �
 
 ds_nomad_menu_mp_growth: "§HGrowth:§! [FromFrom.ds_nomads_growth]"
 ds_nomad_menu_mp_growth_status: "§HStatus:§! [FromFrom.ds_nomads_growth_100] / [FromFrom.ds_nomads_growth_limit]"
-ds_nomad_menu_mp_limit: "§CCrew Capacity:§! [FromFrom.ds_nomad_menu_var_mp_total] / [FromFrom.ds_nomads_mp_max]"
+ds_nomad_menu_mp_limit: "§C船員許容量:§! [FromFrom.ds_nomad_menu_var_mp_total] / [FromFrom.ds_nomads_mp_max]"
 ds_nomad_menu_housing: "£housing£Housing (§G+3§!)"
 ds_nomad_menu_housing_res: "§HCost:§! £alloys£§Y10§! £minerals£§Y750§!"
 ds_nomad_menu_housing_total: "§HFree £housing£Housing:§! [FromFrom.ds_nomad_menu_housing]"
@@ -131,7 +131,7 @@ ds_nomad_menu_var_vm: "月間 £volatile_motes£"
 ds_nomad_menu_var_eg: "月間 £exotic_gases£"
 ds_nomad_menu_var_rc: "月間 £rare_crystals£"
 ds_nomad_menu_var_fleet: "£mod_country_vassal_naval_capacity_contribution_mult£Naval Capacity"
-ds_nomads_pop_limit: "§CCrew Capacity§!"
+ds_nomads_pop_limit: "§C船員許容量§!"
 ds_nomads_pop_growth: "Manpower Growth (Nomads)"
 
 # Menu Modifiers
@@ -191,7 +191,7 @@ decision_nomads_manpower_15_effects: "Removes §R-15§! £pop£ and increases ou
 
 decision_nomads_manpower_1_housing: "§RRequires at least §Y1§!£housing£§YHousing§! in the 流浪の民の管理.§!"
 decision_nomads_manpower_15_housing: "§RRequires at least §Y15§!£housing£§YHousing§! in the 流浪の民の管理.§!"
-decision_nomads_manpower_overcrowded: "§RThere is not enough space on our fleet right now (§CCrew Capacity§!).§!"
+decision_nomads_manpower_overcrowded: "§RThere is not enough space on our fleet right now (§C船員許容量§!).§!"
 
 # Edicts
 edict_nomad_economy_menu_edict: "§B流浪の民の管理§!"
@@ -335,7 +335,7 @@ ap_ds_nomads_planets_effect: "§HUnlocks Policy:§! Nomad-Outposts \nEnables a m
 
 ap_ds_nomads_poplimit: "Boundless Horizons"
 ap_ds_nomads_poplimit_desc: "£ds_civic£§CDarkSpace§! £ds_civic£§CNomad Origin§! \nNew technologies vastly increase the quality of life in all aspects of living in space. Ships and stations become havens for everyone."
-ap_ds_nomads_poplimit_effect: "The §YCrew Capacity§! limits the maximum amount of §HManpower§! a Nomad-Empire can grow."
+ap_ds_nomads_poplimit_effect: "The §Y船員許容量§! limits the maximum amount of §HManpower§! a Nomad-Empire can grow."
 
 # Technologies
 tech_ds_nomad_pk: "Planet Disintegrator"
@@ -737,7 +737,7 @@ ds_dyson_swarm_del_DESC: "§RRemoves§! the structure and enables the reconstruc
 
 # Misc Modifiers
 mod_shipsize_ds_nomads_ark_build_speed_mult: "箱舟の建造速度"
-mod_ds_nomads_pop_limit_energy_produces_add: "§CCrew Capacity§!"
+mod_ds_nomads_pop_limit_energy_produces_add: "§C船員許容量§!"
 mod_ds_nomads_pop_growth_energy_produces_add: "労働力の成長 (Nomads)"
 
 # Agendas - If names change, update tradition _desc!
