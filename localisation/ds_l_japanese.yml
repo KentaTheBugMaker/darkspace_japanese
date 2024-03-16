@@ -38,7 +38,7 @@ dsS.8.a.desc: "Spawns systems in the §HGalactic Core§! with special digsites a
 dsS.9.a: "§BSpectrals§! Crisis - [global_event_country.dsS_spectrals_disabled]"
 dsS.9.a.desc: "Finishing the §HArchaeological Sites§! in the §YGalactic Core§! will start a chain of events to spawn the §Rextremely powerful§! Spectrals §Rcrisis§!. This crisis has different endings & should NOT spawn before the late-game! \n\n$TRIGGER_FAIL$ §RDEVELOPMENT SETTING - NOT IMPLEMENTED YET.§!"
 
-ds.101.a: "§YConfirm§!"
+ds.101.a: "§Y確認§!"
 ds.101.a.desc: "Saves the current settings and closes the menu. You can open it again with typing §Levent ds.102§! into the console. \n§YThe console does not work in multiplayer.§!"
 
 ####################################
@@ -80,9 +80,9 @@ gov_certus: "連邦共和国"
 gov_certus_desc: "This empire is a collection of once rivaled tribes of the same species, but nowadays it forms a powerful united front."
 civic_certus: "Certus"
 civic_certus_desc: "£ds_civic£§CDarkSpace§! \n\nAs masters of diplomacy, this old race can even travel between galaxies and is able to create artificial planets."
-civic_tooltip_certus_effects: "'§YAnnexation§!' の 開戦事由を行使する可能性がある． \nCan unlock the ['concept_ds_certus_perk'] §HAscension Perk§!. \nGain access to the §Y$tradition_ds_certus$§! §HTraditions§! with focus on §Ydiplomacy§!."
+civic_tooltip_certus_effects: "'§Y併合§!' の 開戦事由を行使する可能性がある． \nCan unlock the ['concept_ds_certus_perk'] §HAscension Perk§!. \nGain access to the §Y$tradition_ds_certus$§! §HTraditions§! with focus on §Ydiplomacy§!."
 casus_belli_cb_anschluss: "Total conquest"
-war_goal_wg_anschluss: "Annexation"
+war_goal_wg_anschluss: "併合"
 war_goal_wg_anschluss_desc: "A total war to gain more territory and bring more people into the empire."
 requires_no_recent_certus_planet: "§ROnly possible every 3 years.§!"
 
@@ -199,7 +199,7 @@ certus1_DESC: "Starts in a nebula with 4 unique planets."
 # CERTAST
 civic_certast: "Certast"
 civic_certast_desc: "£ds_civic£§CDarkSpace§! \n\nOnce created by the Certus, they now survey the universe for their true purpose. Even though their technology is very advanced, they have no interest in a new conflict at all - but share the same casus belli as their creators."
-civic_tooltip_certast_effects: "May use the '§YAnnexation§!' casus belli. \nCan unlock the ['concept_ds_certus_perk'] §HAscension Perk§!. \nCan construct £building£ §Y$building_certast_sanctuary$§! Buildings that allow to keep enslaved organic £pop£ Pops. Adds the Job £job_culture_worker£ §Y$job_certast_sanctuary_organic$§! to produce £unity£ §YUnity§! and £society_research£ §YSociety Research§!."
+civic_tooltip_certast_effects: "May use the '§Y併合§!' casus belli. \nCan unlock the ['concept_ds_certus_perk'] §HAscension Perk§!. \nCan construct £building£ §Y$building_certast_sanctuary$§! Buildings that allow to keep enslaved organic £pop£ Pops. Adds the Job £job_culture_worker£ §Y$job_certast_sanctuary_organic$§! to produce £unity£ §YUnity§! and £society_research£ §YSociety Research§!."
 origin_certast_cluster: "£darkspace£Certast-Cluster"
 origin_certast_cluster_desc: "Once created by their organic masters and struggling with intergalactic wars, this AI now awakens in an old forgotten cluster."
 origin_tooltip_certast_cluster_effects: "- Starts in a distant cluster on an §HArcane Ringworld§!."

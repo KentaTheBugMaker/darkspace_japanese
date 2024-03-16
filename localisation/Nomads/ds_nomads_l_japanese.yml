@@ -51,7 +51,7 @@ dsN.32.desc: "Small vessels have entered the territory of §H[ds_spy_target.GetN
 dsN.2.name: "Nomad と通常の技術"
 dsN.2.desc: "Common Stellaris-Technologies of certain areas unlock also bonuses for Nomads. \n\nFurther details are available in the §H流浪の民の管理§! (button §YDefault-Techs§!)."
 dsN.400.name: "$ds_nomads_gateway$"
-dsN.400.desc: "This §Hmegastructure§! is available after gamestart and works only for §YNomads§! and §Yallies§!. They work like normal Gateways and must be built on the edge of a solar system."
+dsN.400.desc: "This §H巨大構造物§! is available after gamestart and works only for §YNomads§! and §Yallies§!. They work like normal Gateways and must be built on the edge of a solar system."
 dsN.3000.name: "§REconomy Crash!§!"
 dsN.3000.desc: "A deficit of a resource adds us the §H$ds_nomads_deficit$§! modifier for §Y30 days§!. The timer goes up to 30 days until the situation is fixed!"
 
@@ -168,16 +168,16 @@ ds_nomads_food_deficit: "Supply Chain Shortages (food)"
 ds_nomads_food_deficit_desc: "Our people are undersupplied and quit most their work."
 ds_nomads_minerals_deficit: "Supply Chain Shortages (minerals)"
 ds_nomads_minerals_deficit_desc: "Our industry lacks required resources to continue most of the production or to upkeep existing components."
-mod_country_base_alloys_produces_add: "月間 alloys"
+mod_country_base_alloys_produces_add: "月間 合金"
 ds_nomads_planets: "§CNomads:§! §HOccupation Force§!"
 ds_nomads_planets_desc: "We don't care about the £pop£ of a planet and let them handle the planet by themself."
 ds_nomads_deficit: "§CNomads:§! §REconomy Crash§!"
 ds_nomads_deficit_desc: "§LA current resource deficit interrupts all production chains & maintenance.§!"
-ds_nomads_upkeep_machine: "§CNomads:§! Pop Upkeep"
+ds_nomads_upkeep_machine: "§CNomads:§! Pop 維持費"
 ds_nomads_upkeep_machine_desc: ""
-ds_nomads_upkeep_hive: "§CNomads:§! Pop Upkeep"
+ds_nomads_upkeep_hive: "§CNomads:§! Pop 維持費"
 ds_nomads_upkeep_hive_desc: ""
-ds_nomads_upkeep_default: "§CNomads:§! Pop Upkeep"
+ds_nomads_upkeep_default: "§CNomads:§! Pop 維持費"
 ds_nomads_upkeep_default_desc: ""
 
 # Decisions
@@ -489,7 +489,7 @@ tr_ds_reavers_upkeep_delayed: "Improved reactors and components decrease the upk
 tr_ds_reavers_ships: "Automated Shipyards"
 tr_ds_reavers_ships_delayed: "Modular and automatic shipyards reduce the cost & time of complex construction stages."
 tr_ds_reavers_terravores: "Planet-Eaters"
-tr_ds_reavers_terravores_desc: "Unlocks the technology for the megastructure §YPlanet-Disintegrator§!, which melts planets to gain large amount of resources. The planet will be §Rdestroyed§!. Only works on §YMolten planets§!."
+tr_ds_reavers_terravores_desc: "Unlocks the technology for the 巨大構造物 §YPlanet-Disintegrator§!, which melts planets to gain large amount of resources. The planet will be §Rdestroyed§!. Only works on §YMolten planets§!."
 tr_ds_reavers_terravores_delayed: "Some planets have an unstable surface, which could be cracked by us without big effort to gain hidden resources."
 
 # Voyager Traditions
@@ -526,7 +526,7 @@ tr_ds_void_infrastructure_delayed: "The long time we spent in space gave us enou
 #tr_ds_void_infrastructure_desc: "Increases the §YMonthly Growth (Manpower)§! by §G+4§!."
 tr_ds_void_dysonswarm: "ダイソンスワーム"
 tr_ds_void_dysonswarm_delayed: "Due our nature, large projects that require a fixed location are not possible. The only solution is a mobile platform."
-tr_ds_void_dysonswarm_desc: "§HUnlocks Special Project:§! ダイソンスワーム Project \nA ダイソンスワーム is a §Ymobile megastructure§! of several small parts or drones which can harvest a star's energy. \nThis structure can §Ychange§! its §Ylocation§!.\n\n"
+tr_ds_void_dysonswarm_desc: "§HUnlocks Special Project:§! ダイソンスワーム Project \nA ダイソンスワーム is a §Ymobile 巨大構造物§! of several small parts or drones which can harvest a star's energy. \nThis structure can §Ychange§! its §Ylocation§!.\n\n"
 
 # Starseekers Traditions
 tradition_ds_starseekers: "Starseekers"
@@ -600,7 +600,7 @@ NOMADS_BYPASS: "Nomad-Gate"
 
 # Situation log
 ds_nomads_chain_title: "§BVoid Overlords§!"
-ds_nomads_chain_desc: "Nomads have §Y2§! playstyles: §GDiplomats§! & §GSavages§!. Both work in single- and multiplayer and have the same new components, techs, traditions, perks and ships. Nomads can also build §YNomad-Gates§! (megastructure) to connect the starting planet with the galaxy. Characteristics are: \n\n§GDiplomats§!: \n- access to diplomacy & federations \n- can not travel through closed borders \n- needs at least 1 £pop£, or game over! \n- better for multiplayer \n\n§GSavages§!: \n- can ignore closed borders \n- does not need any planet or a single £pop£! \n- limited diplomacy & no federations possible \n- better for roleplay/singleplayer"
+ds_nomads_chain_desc: "Nomads have §Y2§! playstyles: §GDiplomats§! & §GSavages§!. Both work in single- and multiplayer and have the same new components, techs, traditions, perks and ships. Nomads can also build §YNomad-Gates§! (巨大構造物) to connect the starting planet with the galaxy. Characteristics are: \n\n§GDiplomats§!: \n- access to diplomacy & federations \n- can not travel through closed borders \n- needs at least 1 £pop£, or game over! \n- better for multiplayer \n\n§GSavages§!: \n- can ignore closed borders \n- does not need any planet or a single £pop£! \n- limited diplomacy & no federations possible \n- better for roleplay/singleplayer"
 
 DS_NOMADS: "§BPerks & Traditions§!"
 DS_NOMADS_DESC: "There are §Y2§! new traditions (marked §Bblue§!) which improve the economy and military (there are also new policies). \n\nPerk §GNomadic Factories§!: Unlocks §Ytier2§! components and the shipclass §YFabricator§!. \n\nPerk §GRise of the Void§!: Unlocks §Ytier3§! components. §RNote§!: Finish the situation-log to unlock the needed technologies. \n\nPerk §GReturn§!: Starts a unique §Rcrisis path§!. Finish it to destroy every empire and win the game. \n\nPerk §GBack To The Roots§!: Unlocks a policy to make use of planets & jobs."
@@ -667,7 +667,7 @@ ap_ds_nomads_crisis_desc: "£ds_civic£§CDarkSpace§! £ds_civic£§CNomad Orig
 ap_ds_nomads_crisis_tooltip: "Allows us to progress towards §YBecoming the§! §RCrisis§!.\n\n"
 
 DS_NOMADS8: "Return"
-DS_NOMADS8_DESC: "The megastructure §GWormhole Assembly§! creates an intergalactic bridge between this galaxy and our true home. It will create a wormhole to open a gate back home! The only problem is.. this unstable bridge will cause such an immense recoil, that all kinds of known matter and elements will split into their atoms. Other civilizations will try to stop us, but there is no other way possible."
+DS_NOMADS8_DESC: "The 巨大構造物 §GWormhole Assembly§! creates an intergalactic bridge between this galaxy and our true home. It will create a wormhole to open a gate back home! The only problem is.. this unstable bridge will cause such an immense recoil, that all kinds of known matter and elements will split into their atoms. Other civilizations will try to stop us, but there is no other way possible."
 
 requires_no_existing_ds_nomad_crisis: "There can only be Wormhole Assembly."
 nomad_assembly_0: "Wormhole Assembly Frame"
@@ -707,7 +707,7 @@ building_ds_nomads_desc: "Growing £pop£ will not be converted into §HManpower
 
 # Dyson Swarm
 ds_dyson_swarm_chain_title: "ダイソンスワーム Project"
-ds_dyson_swarm_chain_desc: "§HBuilding the structure (first time):§! \nA ダイソンスワーム can be built on a §Ystar§! like a Dyson-Sphere. The §Yempire-limit§! is §Y1§!. \n\n§HRelocating the structure:§! \nTo move the structure, it can be §Yupgraded§! again with the final stage called "§YRelocation§!". Finishing it will §Rremove§! the §Rmegastructure§! from that system, but enables the §Yreconstruction§! in the same or another star system. \n\n§YRebuilding§! the ダイソンスワーム does only require §Yone stage§!, which is also much §Yfaster§! & §Ycheaper§! and it can be done everywhere."
+ds_dyson_swarm_chain_desc: "§HBuilding the structure (first time):§! \nA ダイソンスワーム can be built on a §Ystar§! like a Dyson-Sphere. The §Yempire-limit§! is §Y1§!. \n\n§HRelocating the structure:§! \nTo move the structure, it can be §Yupgraded§! again with the final stage called "§YRelocation§!". Finishing it will §Rremove§! the §R巨大構造物§! from that system, but enables the §Yreconstruction§! in the same or another star system. \n\n§YRebuilding§! the ダイソンスワーム does only require §Yone stage§!, which is also much §Yfaster§! & §Ycheaper§! and it can be done everywhere."
 #DS_NOMADS_DYSONSWARM: "Introduction"
 #DS_NOMADS_DYSONSWARM_DESC: "§HBuilding the structure (first time):§! \nA ダイソンスワーム can be built on a §Ystar§! like a Dyson-Sphere. The §Yempire-limit§! is §Y1§!. \n\n§HRelocating the structure:§! \nTo move the structure, it can be §Yupgraded§! again with the final stage called "§YRelocation§!". Finishing it will §Rremove§! the §Rmegastructure§! from that system, but enables the §Yreconstruction§! in the same or another star system. \n\n§YRebuilding§! the ダイソンスワーム does only require §Yone stage§!, which is also much §Yfaster§! & §Ycheaper§! and it can be done everywhere."
 tech_ds_nomads_dysonswarm: "Dyson Swarm"
