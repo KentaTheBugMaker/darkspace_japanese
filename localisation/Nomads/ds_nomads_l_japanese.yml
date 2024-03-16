@@ -37,14 +37,14 @@ dsN.5.name: "流浪の民の管理"
 dsN.5.desc: ""
 #dsN.5.desc: "§HProduction§! shows the total income with §Rupkeep§!. \n\n1*£energy£ §Hproduces§! §G+10§!£energy£ \n1*£minerals£ §Hproduces§! §G+6§!£minerals£ §R-1§!£energy£ \n1*£alloys£ §Hproduces§! §G+6§!£alloys£ §R-5§!£minerals£ \n1*£unity£ §Hproduces§! §G+8§!£unity£ §R-2§!£energy£ \n1*£ds_research£ §Hproduces§! §G+24§!£ds_research£ §R-5§!£energy£ \n1*£food£ §Hproduces§! §G+7§!£food£ §R-1§!£energy£ \n1*£consumer_goods£ §Hproduces§! §G+7§!£consumer_goods£ §R-3§!£minerals£ \n1*£volatile_motes£/£exotic_gases£/£rare_crystals£ §Hproduces§! §G+3§! §R-9§! £minerals£"
 ds_nomad_menu_button_mp: "[root.ds_nomad_menu_var_mp]"
-ds_nomad_menu_tt: "£council£ §HNomad Administration§! \n\nManages the allocation of §YManpower§! to produce §Yresources§!, shows the §YManpower Growth§! & contains §Yhelpful tooltips§! how to actually play as Nomads. \n\n£opinion£ §EOpening this menu will §Rpause§! the game every time. To stop that, open Stellaris' §YSettings§!, then go to §YMessages§! and turn off §YEvent Auto-Pause§!.§!"
+ds_nomad_menu_tt: "£council£ §H流浪の民の管理§! \n\nManages the allocation of §YManpower§! to produce §Yresources§!, shows the §YManpower Growth§! & contains §Yhelpful tooltips§! how to actually play as Nomads. \n\n£opinion£ §EOpening this menu will §Rpause§! the game every time. To stop that, open Stellaris' §YSettings§!, then go to §YMessages§! and turn off §YEvent Auto-Pause§!.§!"
 
 # Espionage
 ds_nomad_menu_intel_text: "諜報"
 ds_must_be_savages: "Only available for the §HSavages§! ['concept_ds_nomad_setups']."
 ds_nomads_spy_ongoing: "There is already an operation going on. \n§HCooldown:§! §Y360 Days§!"
 ds_intel_scope: "£ds_intel£ §HEspionage§! \n\nClick on any empire flag or diplomacy window to start gaining intel on the empire. Use this instead of the normal diplomacy window (or it will not be available for Savages). \n\n£opinion£§EThis button is only available for the §HSavages§! ['concept_ds_nomad_setups']. The result depends on our own level of §YCodebreaking§!.§!"
-dsN.32.name: "Operation Successful" # espionage
+dsN.32.name: "任務成功" # espionage
 dsN.32.desc: "Small vessels have entered the territory of §H[ds_spy_target.GetName]§! and gained important intel about their society and logistics."
 
 # Information events for the player
@@ -512,7 +512,7 @@ tr_ds_voyagers_home_delayed: "Our fleets rule the void. We know every corner of 
 tradition_ds_void: "Voidborn"
 tradition_ds_void_desc: "§CNomads:§! The conquest of space has begun."
 tr_ds_void_adopt: "Voidborn Tradition"
-has_nomad_menu_perk6: "§RRequires all §Y6§! Colony-Modules (Nomad Administration).§!"
+has_nomad_menu_perk6: "§RRequires all §Y6§! Colony-Modules (流浪の民の管理).§!"
 tr_ds_void_finish: "Voidborn Tradition"
 tr_ds_void_estate: "Interstellar Estate"
 tr_ds_void_estate_delayed: "We can only survive if we protect our capital ships with everything we have."
