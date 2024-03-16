@@ -9,7 +9,7 @@ dsS_yes: "§GON§!"
 dsS_no: "§ROFF§!"
 
 ds.101.name: "§WDarkSpace - Global Settings§!"
-ds.101.desc: "(日本語化)Turns on/off certain elements of the mod (useful for multiplayer). \nThis event can be opened again with typing §Levent ds.102§! into the console (open the save in singleplayer).\n§YPlease read the tooltips of the options for details.§! \n\n§GLatest Update§!: §H10h March 24§! §L(v2.9)§!"
+ds.101.desc: "Turns on/off certain elements of the mod (useful for multiplayer). \nThis event can be opened again with typing §Levent ds.102§! into the console (open the save in singleplayer).\n§YPlease read the tooltips of the options for details.§! \n\n§GLatest Update§!: §H10h March 24§! §L(v2.9)§!"
 
 dsS.1.a: "§BCrisis§! Ascension Perks - [global_event_country.dsS_crisisperks_disabled]"
 dsS.1.a.desc: "Turns off/on all crisis perks of DarkSpace. \n\n§RExceptions:§! \n§HInterstellar Overclocking§! (Synthetic Gods), because the entire origin is meant to be a playable crisis."
