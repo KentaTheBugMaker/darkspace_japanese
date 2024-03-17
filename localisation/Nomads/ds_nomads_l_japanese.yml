@@ -9,7 +9,7 @@ ds_button_tt_manpower_desc: "労働力 Nomad の £pop£ §YPops§!. Their upkee
 ds_button_tt_production: "生産"
 ds_button_tt_production_desc: "§Y収入 & 維持費§! is shown in the §HGovernment Window§! as §Ymodifier§! and also visible in the §H流浪の民の管理§!. \n\n§RResource Deficits§! add a §Rmodifier§! to our empire for §Y30 days§! or longer, if the situation doesn't improve. \n\nNew §HRepeatable Technologies§! will show up, which increase our basic income. \n\n£opinion£ §EProduction & Upkeep Values for §Y1§! allocated Manpower: \n1*£energy£ §Hproduces§! §G+10§!£energy£ \n1*£minerals£ §Hproduces§! §G+6§!£minerals£ §R-1§!£energy£ \n1*£alloys£ §Hproduces§! §G+6§!£alloys£ §R-5§!£minerals£ \n1*£unity£ §Hproduces§! §G+8§!£unity£ §R-2§!£energy£ \n1*£ds_research£ §Hproduces§! §G+18§!£ds_research£ §R-5§!£energy£ \n1*£food£ §Hproduces§! §G+7§!£food£ §R-1§!£energy£ \n1*£consumer_goods£ §Hproduces§! §G+7§!£consumer_goods£ §R-3§!£minerals£ \n1*£volatile_motes£/£exotic_gases£/£rare_crystals£ §Hproduces§! §G+3§! §R-9§! £minerals£§!"
 ds_button_tt_ships: "船"
-ds_button_tt_ships_desc: "Nomads have a unique capital ship called §HAlarai§!. It can carry §Yspecial components§! and it can only be §Ybuilt once§!. \n\nThe smaller capital ship called §HArk§! has similar components, but can be §Ybuilt more§! times. \n\n£opinion£ §EAll ships have components that §Yproduce resources§!. The §YTier2§! / §YTier3 - components§! require certain §YAscension Perks§!."
+ds_button_tt_ships_desc: "Nomad は§HAlarai§!という首都船を持っている. It can carry §Yspecial components§! and it can only be §Ybuilt once§!. \n\nThe smaller capital ship called §HArk§! has similar components, but can be §Ybuilt more§! times. \n\n£opinion£ §EAll ships have components that §Yproduce resources§!. The §YTier2§! / §YTier3 - components§! require certain §YAscension Perks§!."
 ds_button_tt_perks: "パーク"
 ds_button_tt_perks_desc: "There are §Y5§! normal §HAscension Perks§! and §Y6§! §HNomad Perks§! in the §H流浪の民の管理§!. \n\n§YNormal Perks§! unlock better §Hcomponents§! and §Hships§!. \n§YNomad Perks§! unlock §HTraditions§! & §HMonthly Growth (Manpower)§!. \n\nThe special Perk §HBack To The Roots§! lets Nomads §Ycolonize planets§! and use §Ynormal§! £pop£ Pops with greater efficiency (without this, real Pops have strong debuffs in production & growth!). It also enables a new §HPlanetary Decision§! to turn Manpower back into normal £pop£. \n\n£opinion£ §E§YBack To The Roots§! is NOT necessary to play Nomads, only if our focus lies on conquering planets.§!"
 ds_button_tt_traditions: "伝統"
@@ -19,7 +19,7 @@ ds_button_tt_setups_desc: "Nomads have §Y2§! §Hdifferent playstyles§!. \n\n�
 ds_button_tt_vanilla: "Default-Techs"
 ds_button_tt_vanilla_desc: "Some common Stellaris-Technologies have an impact on the growth & economy of Nomads. \n\n£housing£§HHousing Technologies§! \nIncrease the §YNomad-£housing£Housing§! by §G+5§!. \n\n£mod_job_researcher_add£§HResearcher & Research-Building Technologies§! \nIncrease the amount of available £mod_job_researcher_add£ £mod_job_alloy_drone_add£ £mod_unity_produces_add£ §YSpecialist-Slots§! by §G+2§!. \n\n £pop£ §HPop-Growth Technologies§! \nIncrease the §YMonthly Growth (Manpower)§! by §G+1§!. \n\n£amenities£§HAscension Perks for Genetic / Machine Evolution§! \nIncreases the §YMonthly Growth (Manpower)§! by §G+1§! AFTER ACCEPTING a Perk (which changes/adds new £pop£ Pop Traits). \n\n£amenities£§HTraditons for Genetic / Machine Evolution§! \nIncreases the §YMonthly Growth (Manpower)§! by §G+1§! AFTER FINISHING a tradition (Genetics, Cybernetics, Synthetics). \n\n£opinion£ §EThe tradition §Y$tradition_expansion$§! also increases the §YMonthly Growth (Manpower)§! by §G+1§!.§! "
 ds_button_tt_limits: "§C船員許容量§!"
-ds_button_tt_limits_desc: "The §C船員許容量§! represents the amount available space in our mobile fleets. It can be increased with §YTraditions§!, §YAscension Perks§!, §YTechnologies§! and §YCivics§!. \n\n£opinion£ §EIf the §C船員許容量§! reaches the maximum, §Rno§! Manpower can grow anymore.§!"
+ds_button_tt_limits_desc: "§C船員許容量§! はわれらの艦隊の余裕を表す．§Y伝統§!, §Yアセンションパーク§!, §Yテクノロジー§! ， §YCivics§!　で増やすことができる. \n\n£opinion£ §E§C船員許容量§! が最大になると, 労働力はこれ以上成長§Rできない§!.§!"
 
 ds_nomad_menu_var_e_total: "£energy£ 収入"
 ds_nomad_menu_var_m_total: "£minerals£ 収入"
@@ -41,9 +41,9 @@ ds_nomad_menu_tt: "£council£ §H流浪の民の管理§! \n\nManages the alloc
 
 # Espionage
 ds_nomad_menu_intel_text: "諜報"
-ds_must_be_savages: "Only available for the §HSavages§! ['concept_ds_nomad_setups']."
-ds_nomads_spy_ongoing: "There is already an operation going on. \n§HCooldown:§! §Y360 Days§!"
-ds_intel_scope: "£ds_intel£ §HEspionage§! \n\nClick on any empire flag or diplomacy window to start gaining intel on the empire. Use this instead of the normal diplomacy window (or it will not be available for Savages). \n\n£opinion£§EThis button is only available for the §HSavages§! ['concept_ds_nomad_setups']. The result depends on our own level of §YCodebreaking§!.§!"
+ds_must_be_savages: "§HSavages§! ['concept_ds_nomad_setups']だけが利用可能."
+ds_nomads_spy_ongoing: "作戦は進行中だ．\n§Hクールダウン:§! §Y360 日§!"
+ds_intel_scope: "£ds_intel£ §H諜報§! \n\nClick on any empire flag or diplomacy window to start gaining intel on the empire. Use this instead of the normal diplomacy window (or it will not be available for Savages). \n\n£opinion£§EThis button is only available for the §HSavages§! ['concept_ds_nomad_setups']. The result depends on our own level of §YCodebreaking§!.§!"
 dsN.32.name: "任務成功" # espionage
 dsN.32.desc: "Small vessels have entered the territory of §H[ds_spy_target.GetName]§! and gained important intel about their society and logistics."
 
@@ -584,23 +584,23 @@ tr_ds_void_investments_delayed: "No society can grow without investments in the 
 tr_ds_void_investments_desc: "Unlocks the §YSociety Subsidies§! Policies."
 
 # Megastructures
-ds_nomads_is_molten: "Only §YMolten worlds§! are a valid target!"
+ds_nomads_is_molten: "§Y溶融惑星§! だけに建造できる!"
 ds_nomads_pk: "Planet-Disintegrator"
 ds_nomads_pk_DESC: "This orbital structure will split the entire planet into its usable elements. ( £energy£ £minerals£ £sr_dark_matter£ )"
 ds_nomads_pk_MEGASTRUCTURE_DETAILS: "Splits the entire planet into its usable elements and generates a lot of resources."
 ds_nomads_pk_final: "§GHarvest Planet§!"
 ds_nomads_pk_final_DESC: "The Planet will be destroyed and we gain resources."
 
-ds_nomads_gateway: "Nomad-Gate"
-ds_nomads_gateway_DESC: "An artificial wormhole to travel between certain systems, the creators seem to be specialised for intergalactic travel. §YIn case of war everyone can use these gates.§!"
-ds_nomads_gateway_MEGASTRUCTURE_DETAILS: "Creates an FTL network for the Nomads and their allies."
-ds_nomads_gateway_del: "§RRemove Nomad-Gate§!"
-ds_nomads_gateway_del_DESC: "Removes this special gateway, but makes it possible to construct a new Nomad-Gate in this or another system."
-NOMADS_BYPASS: "Nomad-Gate"
+ds_nomads_gateway: "Nomad ゲート"
+ds_nomads_gateway_DESC: "星系の間のワームホール, the creators seem to be specialised for intergalactic travel. §Y戦時中はどの勢力も使うことができる．§!"
+ds_nomads_gateway_MEGASTRUCTURE_DETAILS: "Nomad と allie　のためのFTLネットワークを作る"
+ds_nomads_gateway_del: "§RNomad ゲートの破壊§!"
+ds_nomads_gateway_del_DESC: "ゲートを取り除く,この星系にもほかの制約にも再び作ることができる．"
+NOMADS_BYPASS: "Nomad-ゲート"
 
 # Situation log
 ds_nomads_chain_title: "§BVoid Overlords§!"
-ds_nomads_chain_desc: "Nomads have §Y2§! playstyles: §GDiplomats§! & §GSavages§!. Both work in single- and multiplayer and have the same new components, techs, traditions, perks and ships. Nomads can also build §YNomad-Gates§! (巨大構造物) to connect the starting planet with the galaxy. Characteristics are: \n\n§GDiplomats§!: \n- access to diplomacy & federations \n- can not travel through closed borders \n- needs at least 1 £pop£, or game over! \n- better for multiplayer \n\n§GSavages§!: \n- can ignore closed borders \n- does not need any planet or a single £pop£! \n- limited diplomacy & no federations possible \n- better for roleplay/singleplayer"
+ds_nomads_chain_desc: "Nomads have §Y2§! playstyles: §GDiplomats§! & §GSavages§!. Both work in single- and multiplayer and have the same new components, techs, traditions, perks and ships. Nomads can also build §YNomad ゲート§! (巨大構造物) to connect the starting planet with the galaxy. Characteristics are: \n\n§GDiplomats§!: \n- access to diplomacy & federations \n- can not travel through closed borders \n- needs at least 1 £pop£, or game over! \n- better for multiplayer \n\n§GSavages§!: \n- can ignore closed borders \n- does not need any planet or a single £pop£! \n- limited diplomacy & no federations possible \n- better for roleplay/singleplayer"
 
 DS_NOMADS: "§BPerks & Traditions§!"
 DS_NOMADS_DESC: "There are §Y2§! new traditions (marked §Bblue§!) which improve the economy and military (there are also new policies). \n\nPerk §GNomadic Factories§!: Unlocks §Ytier2§! components and the shipclass §YFabricator§!. \n\nPerk §GRise of the Void§!: Unlocks §Ytier3§! components. §RNote§!: Finish the situation-log to unlock the needed technologies. \n\nPerk §GReturn§!: Starts a unique §Rcrisis path§!. Finish it to destroy every empire and win the game. \n\nPerk §GBack To The Roots§!: Unlocks a policy to make use of planets & jobs."
@@ -743,17 +743,17 @@ mod_ds_nomads_pop_growth_energy_produces_add: "労働力の成長 (Nomads)"
 # Agendas - If names change, update tradition _desc!
 council_agenda_agenda_ds_nomads_growth_name: "§CNomads:§! Extraterrestrial Growth"
 council_agenda_agenda_ds_nomads_growth_desc: "   "
-agenda_ds_nomads_growth_mod: "Nomadic Focus (Growth)"
+agenda_ds_nomads_growth_mod: "Nomadの方針 (成長)"
 agenda_ds_nomads_growth_mod_desc: ""
 
 council_agenda_agenda_ds_nomads_alloys_name: "§CNomads:§! Ship Factories"
 council_agenda_agenda_ds_nomads_alloys_desc: "   "
-agenda_ds_nomads_alloys_mod: "Nomadic Focus (Alloys)"
+agenda_ds_nomads_alloys_mod: "Nomadの方針 (合金)"
 agenda_ds_nomads_alloys_mod_desc: ""
 
 council_agenda_agenda_ds_nomads_bases_name: "§CNomads:§! Starbase Laboratories"
 council_agenda_agenda_ds_nomads_bases_desc: "   "
-agenda_ds_nomads_bases_mod: "Nomadic Focus (Bases)"
+agenda_ds_nomads_bases_mod: "Nomadicの方針 (Bases)"
 agenda_ds_nomads_bases_mod_desc: ""
 
 
