@@ -400,7 +400,7 @@ civic_np_desc:0 "スタート時から巨大構造物§Yアルマハト§!をも
 
 # ORIGIN ARCANE RINGWORLD
 origin_arcane_ringworld: "£darkspace£Arcane"
-origin_arcane_ringworld_desc: "This giant Arcane-ringworld with the size of an entire star system lets other empires look tiny. The 8 habitable segments are the only living space this empire needs."
+origin_arcane_ringworld_desc: "星系全体のサイズを持つこの巨大な難解なリングワールドでは、他の帝国が小さく見えます。この帝国が必要とする居住空間は 8 つの居住可能な区画だけです."
 origin_tooltip_arcane_ringworld_effects: "- Starts on an §HArcane-ringworld§!, which has §H8§! habitable segments. \n- §HColony ships§! cost much more in the first decades. \n- All additional segments have many £blocker£ §RBlockers§!."
 arcane_ringworld_NAME: "Arcane Ringworld"
 arcane_ringworld_DESC: ""
