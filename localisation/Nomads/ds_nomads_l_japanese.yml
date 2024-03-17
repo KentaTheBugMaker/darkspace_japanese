@@ -5,7 +5,7 @@
 ######## Menu Start
 
 ds_button_tt_manpower: "労働力"
-ds_button_tt_manpower_desc: "労働力 Nomad の £pop£ §YPops§!. Their upkeep depends on their §Yquantity§! and our §Yauthority§!. The §H月間成長数§! is §G+5§!, but it can be increased with §YTechnologies§!, §YTraditions§! and §YAscension Perks§!. \n\nThe growth will §Rstop§!, if Nomad £housing£§HHousing§! is lower than §Y1§!.\nGrowth is temporarily §Rreduced§! while being §Rat war§! or after a §Rlost war§!§ . \n\nEvery populated planet has the §Ydecision§! §BRecruitment§! to turn £pop£ into Manpower. \n\n£opinion£ §EAll common technologies that improve £housing£Housing or £mod_pop_growth_speed£Pop Growth unlock also more §YNomad§!£housing£§YHousing§! or §YMonthly Growth (Manpower)§!."
+ds_button_tt_manpower_desc: "労働力 はNomad の £pop£ §YPop§!だ. Their upkeep depends on their §Yquantity§! and our §Yauthority§!. The §H月間成長数§! is §G+5§!, but it can be increased with §YTechnologies§!, §YTraditions§! and §YAscension Perks§!. \n\nThe growth will §Rstop§!, if Nomad £housing£§H住居§! is lower than §Y1§!.\nGrowth is temporarily §Rreduced§! while being §Rat war§! or after a §Rlost war§!§ . \n\nEvery populated planet has the §Ydecision§! §BRecruitment§! to turn £pop£ into Manpower. \n\n£opinion£ §EAll common technologies that improve £housing£住居 or £mod_pop_growth_speed£Pop Growth unlock also more §YNomad§!£housing£§Y住居§! or §YMonthly Growth (Manpower)§!."
 ds_button_tt_production: "生産"
 ds_button_tt_production_desc: "§Y収入 & 維持費§! is shown in the §HGovernment Window§! as §Ymodifier§! and also visible in the §H流浪の民の管理§!. \n\n§RResource Deficits§! add a §Rmodifier§! to our empire for §Y30 days§! or longer, if the situation doesn't improve. \n\nNew §HRepeatable Technologies§! will show up, which increase our basic income. \n\n£opinion£ §EProduction & Upkeep Values for §Y1§! allocated Manpower: \n1*£energy£ §Hproduces§! §G+10§!£energy£ \n1*£minerals£ §Hproduces§! §G+6§!£minerals£ §R-1§!£energy£ \n1*£alloys£ §Hproduces§! §G+6§!£alloys£ §R-5§!£minerals£ \n1*£unity£ §Hproduces§! §G+8§!£unity£ §R-2§!£energy£ \n1*£ds_research£ §Hproduces§! §G+18§!£ds_research£ §R-5§!£energy£ \n1*£food£ §Hproduces§! §G+7§!£food£ §R-1§!£energy£ \n1*£consumer_goods£ §Hproduces§! §G+7§!£consumer_goods£ §R-3§!£minerals£ \n1*£volatile_motes£/£exotic_gases£/£rare_crystals£ §Hproduces§! §G+3§! §R-9§! £minerals£§!"
 ds_button_tt_ships: "船"
@@ -17,7 +17,7 @@ ds_button_tt_traditions_desc: "There are §Y6§! new traditions available - each
 ds_button_tt_setups: "Setups"
 ds_button_tt_setups_desc: "Nomads have §Y2§! §Hdifferent playstyles§!. \n\n§HDiplomats§! require always at least §Y1§! £pop£ - otherwise the entire empire will §Rdie§!. They have all options for §Ydiplomacy§! available and can join §YFederations§! or the §YGalactic Community§!. They can §Rnot pass closed borders§!. \n\n§HSavages§! are the true Nomad experience. They require §Y0§! £pop£ and do not even need own territory. Can §Yignore closed borders§!. The empire will §Rdie§!, if the last §YAlarai§!, §YArk§! and §Ystarbase§! are destroyed! Savages are §Rlimited§! in §Ydiplomacy§!. \n\n£opinion£ §EBoth playstyles can utilize planets with the Ascension Perk §YBack To The Roots§! and turn £pop£ into Manpower or vice versa. \nBoth playstyles have new traditions, perks, the Manpower system, components & more.§!"
 ds_button_tt_vanilla: "Default-Techs"
-ds_button_tt_vanilla_desc: "Some common Stellaris-Technologies have an impact on the growth & economy of Nomads. \n\n£housing£§HHousing Technologies§! \nIncrease the §YNomad-£housing£Housing§! by §G+5§!. \n\n£mod_job_researcher_add£§HResearcher & Research-Building Technologies§! \nIncrease the amount of available £mod_job_researcher_add£ £mod_job_alloy_drone_add£ £mod_unity_produces_add£ §YSpecialist-Slots§! by §G+2§!. \n\n £pop£ §HPop-Growth Technologies§! \nIncrease the §YMonthly Growth (Manpower)§! by §G+1§!. \n\n£amenities£§HAscension Perks for Genetic / Machine Evolution§! \nIncreases the §YMonthly Growth (Manpower)§! by §G+1§! AFTER ACCEPTING a Perk (which changes/adds new £pop£ Pop Traits). \n\n£amenities£§HTraditons for Genetic / Machine Evolution§! \nIncreases the §YMonthly Growth (Manpower)§! by §G+1§! AFTER FINISHING a tradition (Genetics, Cybernetics, Synthetics). \n\n£opinion£ §EThe tradition §Y$tradition_expansion$§! also increases the §YMonthly Growth (Manpower)§! by §G+1§!.§! "
+ds_button_tt_vanilla_desc: "Some common Stellaris-Technologies have an impact on the growth & economy of Nomads. \n\n£housing£§H住居 Technologies§! \nIncrease the §YNomad-£housing£住居§! by §G+5§!. \n\n£mod_job_researcher_add£§HResearcher & Research-Building Technologies§! \nIncrease the amount of available £mod_job_researcher_add£ £mod_job_alloy_drone_add£ £mod_unity_produces_add£ §YSpecialist-Slots§! by §G+2§!. \n\n £pop£ §HPop-Growth Technologies§! \nIncrease the §YMonthly Growth (Manpower)§! by §G+1§!. \n\n£amenities£§HAscension Perks for Genetic / Machine Evolution§! \nIncreases the §YMonthly Growth (Manpower)§! by §G+1§! AFTER ACCEPTING a Perk (which changes/adds new £pop£ Pop Traits). \n\n£amenities£§HTraditons for Genetic / Machine Evolution§! \nIncreases the §YMonthly Growth (Manpower)§! by §G+1§! AFTER FINISHING a tradition (Genetics, Cybernetics, Synthetics). \n\n£opinion£ §EThe tradition §Y$tradition_expansion$§! also increases the §YMonthly Growth (Manpower)§! by §G+1§!.§! "
 ds_button_tt_limits: "§C船員許容量§!"
 ds_button_tt_limits_desc: "§C船員許容量§! はわれらの艦隊の余裕を表す．§Y伝統§!，§Yアセンションパーク§!，§Yテクノロジー§! ，§Y国是§!で増やすことができる. \n\n£opinion£ §E§C船員許容量§! が最大になると, 労働力はこれ以上成長§Rできない§!.§!"
 
@@ -110,9 +110,9 @@ ds_nomad_menu_var_value_fleet_total: "[FromFrom.ds_nomad_menu_var_fleet_total] �
 ds_nomad_menu_mp_growth: "§HGrowth:§! [FromFrom.ds_nomads_growth]"
 ds_nomad_menu_mp_growth_status: "§HStatus:§! [FromFrom.ds_nomads_growth_100] / [FromFrom.ds_nomads_growth_limit]"
 ds_nomad_menu_mp_limit: "§C船員許容量:§! [FromFrom.ds_nomad_menu_var_mp_total] / [FromFrom.ds_nomads_mp_max]"
-ds_nomad_menu_housing: "£housing£Housing (§G+3§!)"
+ds_nomad_menu_housing: "£housing£住居 (§G+3§!)"
 ds_nomad_menu_housing_res: "§HCost:§! £alloys£§Y10§! £minerals£§Y750§!"
-ds_nomad_menu_housing_total: "§HFree £housing£Housing:§! [FromFrom.ds_nomad_menu_housing]"
+ds_nomad_menu_housing_total: "§HFree £housing£住居:§! [FromFrom.ds_nomad_menu_housing]"
 
 ds_nomad_menu_research_slots: "£mod_job_researcher_add£ £mod_job_alloy_drone_add£ £mod_unity_produces_add£ Slot (§G+2§!)"
 ds_nomad_menu_research_slots_tooltip: "Unlocks more slots for Manpower on Research, Alloys & Unity."
@@ -189,8 +189,8 @@ decision_nomads_manpower_15: "§BRecruitment§! (15x)"
 decision_nomads_manpower_15_desc: "Increases the §HManpower§! for the §Y流浪の民の管理§! to produce more resources and research."
 decision_nomads_manpower_15_effects: "Removes §R-15§! £pop£ and increases our §HManpower§! by §G+15§!. \nWorks only for £pop£ Pops with good or better living standards. \nOnly §YSavages§! can remove the last pop of a §Ycapital§!."
 
-decision_nomads_manpower_1_housing: "§RRequires at least §Y1§!£housing£§YHousing§! in the 流浪の民の管理.§!"
-decision_nomads_manpower_15_housing: "§RRequires at least §Y15§!£housing£§YHousing§! in the 流浪の民の管理.§!"
+decision_nomads_manpower_1_housing: "§RRequires at least §Y1§!£housing£§Y住居§! in the 流浪の民の管理.§!"
+decision_nomads_manpower_15_housing: "§RRequires at least §Y15§!£housing£§Y住居§! in the 流浪の民の管理.§!"
 decision_nomads_manpower_overcrowded: "§RThere is not enough space on our fleet right now (§C船員許容量§!).§!"
 
 # Edicts
@@ -364,26 +364,26 @@ tech_repeatable_nomads_unity_desc: "Our people do everything to increase our soc
 
 tech_ds_nomads_pops: "Interstellar Society I"
 tech_ds_nomads_pops_desc: "This people will forever avoid any planetary ground and thrives especially well in space on ships or stations."
-tech_ds_nomads_pops_effect: "Creates automatically §G+1§! §HManpower§! every §Y2 Years§!, if at least §Y1§! £housing£§YNomad-Housing§! is available."
+tech_ds_nomads_pops_effect: "Creates automatically §G+1§! §HManpower§! every §Y2 Years§!, if at least §Y1§! £housing£§YNomad-住居§! is available."
 
 tech_ds_nomads_pops2: "Interstellar Society II"
 tech_ds_nomads_pops2_desc: "This people will forever avoid any planetary ground and thrives especially well in space on ships or stations."
-tech_ds_nomads_pops2_effect: "Creates automatically §G+2§! §HManpower§! every §Y2 Years§!, if at least §Y2§! £housing£§YNomad-Housing§! are available."
+tech_ds_nomads_pops2_effect: "Creates automatically §G+2§! §HManpower§! every §Y2 Years§!, if at least §Y2§! £housing£§YNomad-住居§! are available."
 
 tech_repeatable_nomads_poplimit: "Interstellar Engineering"
 tech_repeatable_nomads_poplimit_desc: "Inceases the total amount of Manpower a Nomad-Empire can grow."
 
-dsNV.1.name: "Increased Growth" # Techs
+dsNV.1.name: "成長スピード増加" # Techs
 dsNV.1.desc: "The research of a §YTechnology§! in the category §YPop Growth§! grants us the following bonus: \n\n§HMonthly Growth (Manpower):§! §G+1§!"
 dsNV.2.name: "住居の改善" # Techs
-dsNV.2.desc: "The research of a §YTechnology§! in the category §YHousing§! grants the following bonus: \n\n£housing£§HHousing (Nomads):§! §G+5§!"
-dsNV.3.name: "Increased Growth" # Perks
+dsNV.2.desc: "The research of a §YTechnology§! in the category §Y住居§! grants the following bonus: \n\n£housing£§H住居 (Nomads):§! §G+5§!"
+dsNV.3.name: "成長スピード増加" # Perks
 dsNV.3.desc: "The adoption of an §YAscension Perk§! in the category §YPop Growth§! & §YTrait Points§! grants us the following bonus: \n\n§HMonthly Growth (Manpower):§! §G+1§!"
-dsNV.4.name: "Increased Growth" # Tradition
+dsNV.4.name: "成長スピード増加" # Tradition
 dsNV.4.desc: "The finishing of a §YTradition§! in the category §YPop Growth§! & §YTrait Points§! grants us the following bonus: \n\n§HMonthly Growth (Manpower):§! §G+1§!"
-dsNV.5.name: "Increased Growth" # Mid-Endgame tech.
-dsNV.5.desc: "The research of a §YTechnology§! in the category §YPop Growth§! grants us the following bonus: \n\n§HGrowth (Manpower):§! §G+1§! Manpower every §Y2 years§!. \nRequires at least §Y1§! §YAvailable§! £housing£§YHousing§!, or the bonus §Rdisappears§!."
-dsNV.50.desc: "The research of a §YTechnology§! in the category §YPop Growth§! grants us the following bonus: \n\n§HGrowth (Manpower):§! §G+2§! Manpower every §Y2 years§!. \nRequires at least §Y2§! §YAvailable§! £housing£§YHousing§!, or the bonus §Rdisappears§!."
+dsNV.5.name: "成長スピード増加" # Mid-Endgame tech.
+dsNV.5.desc: "The research of a §YTechnology§! in the category §YPop Growth§! grants us the following bonus: \n\n§HGrowth (Manpower):§! §G+1§! Manpower every §Y2 years§!. \nRequires at least §Y1§! §YAvailable§! £housing£§Y住居§!, or the bonus §Rdisappears§!."
+dsNV.50.desc: "The research of a §YTechnology§! in the category §YPop Growth§! grants us the following bonus: \n\n§HGrowth (Manpower):§! §G+2§! Manpower every §Y2 years§!. \nRequires at least §Y2§! §YAvailable§! £housing£§Y住居§!, or the bonus §Rdisappears§!."
 dsNV.6.name: "Rise of Science"
 dsNV.6.desc: "The research of a §YTechnology§! in the category §YResearchers & Research-Buildings§! grants the following bonus: \n\n£mod_job_researcher_add£ £mod_job_alloy_drone_add£ £mod_unity_produces_add£ §HSpecialist-Slots:§! §G+2§!"
 
@@ -437,8 +437,8 @@ DS_NOMADS_ARK_RESEARCH2_DESC: "High-performance computers and laboratories to in
 #DS_NOMADS_ARK_MILITARY2: "§BAnomaly-Observatory§!"
 #DS_NOMADS_ARK_MILITARY2_DESC: "Makes it possible to examine unknown elements and experiments with possible uses. \n\n§GProduces:§! 2£sr_living_metal£ \n§RUpkeep:§! 35£energy£ 30£minerals£"
 
-DS_NOMADS_ARK_FOOD2: "§BHydroponics Bay§!"
-DS_NOMADS_ARK_FOOD2_DESC: "Produces food for our people. \n\n§GProduces:§! 20£food£ \n§RUpkeep:§! 10£energy£"
+DS_NOMADS_ARK_FOOD2: "§B水耕栽培ベイ§!"
+DS_NOMADS_ARK_FOOD2_DESC: "食物を生産する． \n\n§G産出:§! 20£food£ \n§R維持費:§! 10£energy£"
 
 # 箱舟 components TIER 3
 DS_NOMADS_ARK_ENERGY3: "§BModular Reactor§!"
@@ -512,7 +512,7 @@ tr_ds_voyagers_home_delayed: "Our fleets rule the void. We know every corner of 
 tradition_ds_void: "Voidborn"
 tradition_ds_void_desc: "§CNomads:§! The conquest of space has begun."
 tr_ds_void_adopt: "Voidborn Tradition"
-has_nomad_menu_perk6: "§RRequires all §Y6§! Colony-Modules (流浪の民の管理).§!"
+has_nomad_menu_perk6: "§Rコロニーモジュールが§Y6§!個必要 (流浪の民の管理).§!"
 tr_ds_void_finish: "Voidborn Tradition"
 tr_ds_void_estate: "Interstellar Estate"
 tr_ds_void_estate_delayed: "We can only survive if we protect our capital ships with everything we have."
@@ -532,7 +532,7 @@ tr_ds_void_dysonswarm_desc: "§HUnlocks Special Project:§! ダイソンスワ�
 tradition_ds_starseekers: "Starseekers"
 tradition_ds_starseekers_desc: "§CNomads:§! Endless discoveries are waiting for us."
 tr_ds_starseekers_adopt: "Starseekers Tradition"
-tr_ds_starseekers_desc: "Increases £housing£§YHousing§! (Nomads) by §G+15§!."
+tr_ds_starseekers_desc: "Increases £housing£§Y住居§! (Nomads) by §G+15§!."
 tr_ds_starseekers_finish: "Starseekers Tradition"
 tr_ds_starseekers_naval: "Galactic Campaigns"
 tr_ds_starseekers_naval_delayed: "Our fleet represents our entire existence."
