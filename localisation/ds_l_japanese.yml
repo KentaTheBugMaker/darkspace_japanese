@@ -46,11 +46,11 @@ ds.101.a.desc: "Saves the current settings and closes the menu. You can open it 
 ####################################
 
 # Tradition
-tradition_ds_certus: "Eternal Union"
+tradition_ds_certus: "永遠の連合"
 tradition_ds_certus_desc: "§CCertus:§! 秩序と科学の銀河系の安息の地/n共和国万歳"
-tr_ds_certus_adopt: "Eternal Union Tradition"
-tr_ds_certus_finish: "Eternal Union Tradition"
-mod_country_influence_cost_mult: "影響力コスト (Empire)"
+tr_ds_certus_adopt: "永遠の連合の伝統"
+tr_ds_certus_finish: "永遠の連合の伝統"
+mod_country_influence_cost_mult: "影響力コスト (帝国)"
 mod_country_resource_max_influence_add: "影響力上限"
 tr_ds_certus_peace: "内なる平和"
 tr_ds_certus_peace_delayed: "帝国の強さは、国境内の安定性によって決まります。"
@@ -80,7 +80,7 @@ gov_certus: "連邦共和国"
 gov_certus_desc: "この帝国は、かつては敵対していた同種の部族の集合体ですが、現在では強力な統一戦線を形成しています。"
 civic_certus: "Certus"
 civic_certus_desc: "£ds_civic£§CDarkSpace§! \n\n外交の達人として、この古い種族は銀河間を移動することもでき、人工惑星を作り出すこともできます。"
-civic_tooltip_certus_effects: "'§Y併合§!' の 開戦事由を行使する事ができる。 \nCan unlock the ['concept_ds_certus_perk'] §HAscension Perk§!. \nGain access to the §Y$tradition_ds_certus$§! §HTraditions§! with focus on §Ydiplomacy§!."
+civic_tooltip_certus_effects: "'§Y併合§!' の 開戦事由を行使する事ができる。 \n['concept_ds_certus_perk'] §Hアセンションパーク§!をアンロックすることができる。 \n§Y外交§!にフォーカスした§H伝統§! §Y$tradition_ds_certus$§!にアクセスすることができる。"
 casus_belli_cb_anschluss: "Total conquest"
 war_goal_wg_anschluss: "併合"
 war_goal_wg_anschluss_desc: "より多くの領土を獲得し、より多くの人々を帝国に引き入れるための総力戦"
@@ -198,8 +198,8 @@ certus1_DESC: "Starts in a nebula with 4 unique planets."
 
 # CERTAST
 civic_certast: "Certast"
-civic_certast_desc: "£ds_civic£§CDarkSpace§! \n\nOnce created by the Certus, they now survey the universe for their true purpose. Even though their technology is very advanced, they have no interest in a new conflict at all - but share the same casus belli as their creators."
-civic_tooltip_certast_effects: "May use the '§Y併合§!' casus belli. \nCan unlock the ['concept_ds_certus_perk'] §HAscension Perk§!. \nCan construct £building£ §Y$building_certast_sanctuary$§! Buildings that allow to keep enslaved organic £pop£ Pops. Adds the Job £job_culture_worker£ §Y$job_certast_sanctuary_organic$§! to produce £unity£ §YUnity§! and £society_research£ §YSociety Research§!."
+civic_certast_desc: "£ds_civic£§CDarkSpace§! \n\nかつてCertusによって創造された彼らは、真の目的のために宇宙を調査しています。彼らのテクノロジーは非常に進んでいますが、新たな紛争には全く興味がありません。しかし、彼らの創造者と同じ好戦的立場を共有しています。"
+civic_tooltip_certast_effects: "開戦自由 §Y併合§!を使用することが出来ます。 \n['concept_ds_certus_perk'] §Hアセンションパーク§!をアンロックすることができる。 \n£building£ §Y$building_certast_sanctuary$§! を建築することが出来ます。これは奴隷化された有機的£pop£ポップを維持します。ジョブ £job_culture_worker£ §Y$job_certast_sanctuary_organic$§!を追加します。£unity£ §YUnity§! と £society_research£ §YSociety Research§!を生み出す。"
 origin_certast_cluster: "£darkspace£Certast-Cluster"
 origin_certast_cluster_desc: "Once created by their organic masters and struggling with intergalactic wars, this AI now awakens in an old forgotten cluster."
 origin_tooltip_certast_cluster_effects: "- Starts in a distant cluster on an §HArcane Ringworld§!."
@@ -223,7 +223,7 @@ job_certast_sanctuary_organic_effect_desc: "£job_culture_worker£ $job_certast_
 ####################################
 
 civic_vero: "Vero"
-civic_vero_desc: "£ds_civic£§CDarkSpace§! \n\nA very intelligent people with §Ybetter leaders§!, which can have a much §Yhigher age§!."
+civic_vero_desc: "£ds_civic£§CDarkSpace§! \n\n知力の高い国民は、§Y優れたリーダー§!をもち§Y長い寿命§!を持つ。"
 origin_vero: "£darkspace£Vi"
 origin_vero_desc: "This old system in a wonderful nebula is only known as mystery among other empires."
 origin_tooltip_vero_effects: "- Starts on a planet of the §HImmortal§!-class and a §Hcolonized moon§!. \n- There are §Rno guaranteed§! habitable worlds near the home system. \n- Starts with §R3 fewer§! £pop£ Pops. \n- §HTerraforming§! available at gamestart to create more Immortal-planets. \n- New shipclass §HSeele§! can terraform planets faster & cheaper (§Rrequires DLC Apocalypse§!)."
@@ -252,8 +252,8 @@ ds_vi_limit: "§RCan only be done every 5 years.§!"
 # PHOENIX EMPIRE
 ####################################
 
-civic_regime: "Military State"
-civic_regime_desc: "£ds_civic£§CDarkSpace§! \n\nGenerations born in the fire of war seek revenge for their lost comrades to let their empire rise again."
+civic_regime: "軍事国家"
+civic_regime_desc: "£ds_civic£§CDarkSpace§! \n\n戦火の中で生まれた世代は、帝国を再び立ち上がらせるために、失った仲間への復讐を求める。"
 origin_regime: "£darkspace£Phoenix Empire"
 origin_regime_desc: "The homesystem is full with debris of the last great war. Since then the home world is devastated and seeks hope in the new government."
 origin_tooltip_regime_effects: "- Starts on an §H$pc_city$§! with many special §Rblockers§!. \n- Clearing the blockers on the capital provides many new £job£ jobs. \n- A §H$strategic_coordination_center_ruined$§! is located in the solar system. \n- Starts with §Rfewer§! £pop£ Pops."
@@ -283,8 +283,8 @@ d_ds_megacity_blocker4_desc: ""
 ####################################
 
 # CIVIC: CYBERPUNK
-civic_ds_cyberpunk: "Cyberpunk"
-civic_ds_cyberpunk_desc: "£ds_civic£§CDarkSpace§! \n\nThis society is living in a futuristic but dystopian environment where lowlife meets the newest technologies. Artificial intelligence and cyberware are a common product in this world, and often lead to misery."
+civic_ds_cyberpunk: "サイバーパンク"
+civic_ds_cyberpunk_desc: "£ds_civic£§CDarkSpace§! \n\nこの社会は近未来的だがディストピア的な環境にあり、そこでは低俗な生き物と最新テクノロジーが共存している。人工知能とサイバーウェアはこの世界では一般的な製品であり、しばしば不幸をもたらす。"
 civic_ds_cyberpunk_effects: "- Can construct the £building£ §Y$building_ds_arasaka_subnet$§! Building which adds £mod_job_ds_cyberpunk_arasaka_add£['concept_ds_cyberpunk_arasaka'] Jobs for empire wide bonuses. \n- Can construct up to §G10§! £building£ §Y$building_ds_vr_complex$§! Buildings which add £mod_job_ds_cyberpunk_netrunner_add£['concept_ds_cyberpunk_netrunner'] Jobs for local planetary bonuses. \n- Can built the §Y$ds_cyberpunk_army$§! §HArmy Type§!."
 # NOT USED RIGHT NOW
 #edict_ds_subnet_deepdive: "Subnet Deepdive" ### \n- Enables the '§Yedict_ds_subnet_deepdive§!' §HEdict§!.
@@ -312,8 +312,8 @@ job_ds_cyberpunk_arasaka_plural: "Edgerunners"
 job_ds_cyberpunk_arasaka_desc: "Connected with the tech and networks around them, these individuals possess an incredible power and influence over the population. They decide what the population sees and manipulate the overall mindset of society."
 
 # CIVIC: SHADOWS
-civic_ds_shadows: "The Shadows"
-civic_ds_shadows_desc: "£ds_civic£§CDarkSpace§! \n\nThe art of war is to surprise your enemy, and the biggest surprise is coming out of nowhere."
+civic_ds_shadows: "影"
+civic_ds_shadows_desc: "£ds_civic£§CDarkSpace§! \n\n兵法とは敵を驚かせることであり、最大の驚きは突然やってくることだ。"
 civic_ds_shadows_effects: "Gain access to the '§Y$operation_ds_shadows$§!' §HOperation§! to interrupt hostile cloaking capabilities."
 operation_ds_shadows: "Sabotage Cloaking Detection"
 operation_ds_shadows_desc: "Our operatives will infiltrate secret sensor stations and facilities to find ways for hiding our cloaked fleets from enemy radar."
@@ -332,17 +332,17 @@ ds.295.name: "§RSecurity Breach:§! Sabotaged Sensors!"
 ds.295.desc: "Unknown saboteurs have struck in the §Y[sabotaged_starbase_system.GetName]§! system, wrecking part of the §H[sabotaged_starbase.GetName]§! facility.\n\nOur counter-espionage service suggests this is likely the work of foreign actors, rather than any home-grown threat. We have increased security around the affected region of space in the hopes of capturing these operatives."
 
 # CIVIC REGULATED CONSUMPTION
-civic_ds_food: "Regulated Consumption"
-civic_ds_food_desc: "£ds_civic£§CDarkSpace§! \n\nThe avoidance of unnecessary consumer goods in the daily life opens so many opportunities for the economy."
+civic_ds_food: "消費規制"
+civic_ds_food_desc: "£ds_civic£§CDarkSpace§! \n\n日常生活で不必要な消費財を避けることは、経済に多くのチャンスをもたらす。"
 civic_tooltip_ds_food_effects: "Removes the normal £consumer_goods£§YConsumer Goods Upkeep§! of £pop£ Pops, but increases the necessity of their £food£§RFood Upkeep§!. Both modifiers do not include the upkeep of £job£Jobs."
 
 # CIVIC QUANTUM NAVIGATION
-civic_ds_quantum: "Quantum Navigation"
-civic_ds_quantum_desc: "£ds_civic£§CDarkSpace§! \n\nAll ship computers receive more power for quicker calculations while navigating with long-distance jumps."
+civic_ds_quantum: "量子ナビゲーション"
+civic_ds_quantum_desc: "£ds_civic£§CDarkSpace§! \n\nすべての船舶コンピューターは、長距離ジャンプで航行する際の計算を高速化するために、より多くの電力を受け取ります。"
 
 # CRUSADERS
-civic_ds_crusaders: "Crusaders"
-civic_ds_crusaders_desc: "£ds_civic£§CDarkSpace§! \n\nThis empire was born to wage war and uses the first years for rapid and focused attacks."
+civic_ds_crusaders: "十字軍"
+civic_ds_crusaders_desc: "£ds_civic£§CDarkSpace§! \n\nこの帝国は戦争をするために生まれ、最初の数年間を迅速かつ集中的な攻撃のために使う。"
 civic_tooltip_ds_crusaders_effects: "Declaring war with the §Y'Crusade'§! casus belli adds the modifier §YMomentum§! for §Y7§! years: \n- §G+35%§! increased £unity£Unity income \n- §G+10%§! Sublight Speed \n- §G+1%§! Hull Regeneration"
 war_goal_wg_ds_crusaders: "Crusade"
 war_goal_wg_ds_crusaders_desc: "Starts a war to punish heretics of all kind."
@@ -352,8 +352,8 @@ ds_crusaders_war_effect: "Momentum"
 ds_crusaders_war_effect_desc: ""
 
 # CIVIC WARLORD
-civic_warlord: "Warlord"
-civic_warlord_desc: "£ds_civic£§CDarkSpace§! \n\nWith the warlord in front into the battle!"
+civic_warlord: "将軍"
+civic_warlord_desc: "£ds_civic£§CDarkSpace§! \n\n将軍を先頭に戦いへ"
 civic_tooltip_warlord_effects: "Can build the §YShepard§! §HShip Type§! after researching £engineering_research£§HBattleships§!, which supports friendly ships."
 tech_shepard: "Shepard"
 tech_shepard_desc: "Unlocks the shepard."
@@ -370,8 +370,8 @@ SHIP_AURA_SHEPARD_DESC:0 ""
 aura_shepard:0 "Supports all near friendly ships."
 
 # CIVIC HEARTS OF IRON
-civic_hoi: "Hearts of iron"
-civic_hoi_desc: "£ds_civic£§CDarkSpace§! \n\nSimple soldiers are the backbone of this empire. In space, strike craft are just a fast kind of infantry!"
+civic_hoi: "鉄の心臓"
+civic_hoi_desc: "£ds_civic£§CDarkSpace§! \n\n単純な兵士がこの帝国の屋台骨だ。宇宙では、ストライククラフトは高速歩兵の一種にすぎない"
 civic_tooltip_hoi_effects: "Can build the §YSupercarrier§! §HShip Type§! after researching £engineering_research£§HBattleships§!."
 tech_sc: "Supercarrier"
 tech_sc_desc: "Unlocks the supercarrier."
@@ -385,18 +385,18 @@ SUPERCARRIER_ATK:0 "Attack Mode"
 SUPERCARRIER_DEF:0 "Defensive Mode"
 
 # CIVIC PEACEKEEPER
-civic_pk: "Peacekeepers"
-civic_pk_desc: "£ds_civic£§CDarkSpace§! \n\nThis society wants to avoid big wars and uses incredible strong defences. Can use the §YFirewall§! combat-computer for defence platforms (starbases)." 
+civic_pk: "平和維持軍"
+civic_pk_desc: "£ds_civic£§CDarkSpace§! \n\nこの社会は大きな戦争を避けたいと考えており、信じられないほど強力な防衛を行っている。 Can use the §YFirewall§! combat-computer for defence platforms (starbases)." 
 PEACEKEEPER_STARBASE: "Firewall"
 PEACEKEEPER_STARBASE_DESC: "This starbases and its crew fight until the end!"
 
 # CIVIC MASTERBUILDERS
-civic_mb: "Masterbuilders"
-civic_mb_desc: "£ds_civic£§CDarkSpace§! \n\nThis empire has strong ambitions to finish megastructures as fast as possible." 
+civic_mb: "マスタービルダー"
+civic_mb_desc: "£ds_civic£§CDarkSpace§! \n\nこの帝国は、巨大建造物をできるだけ早く完成させるという強い野心を持っている。" 
 
 # CIVIC NEUTRONPOWER
-civic_np:0 "Neutronpower"
-civic_np_desc:0 "Starts with the §YAllmacht§!-megastructure, which produces £unity£ and later §Yresearch§!. After the research of §YMega-Engineering§! it will be possible to specify the Allmacht's power either to £physics£ or £engineering£ (by §G+50%§!). \n\n§YWorks only with the Allmacht-origin.§!" 
+civic_np:0 "中性子力"
+civic_np_desc:0 "スタート時から巨大構造物§Yアルマハト§!をもつ, which produces £unity£ and later §Yresearch§!. After the research of §YMega-Engineering§! it will be possible to specify the Allmacht's power either to £physics£ or £engineering£ (by §G+50%§!). \n\n§YWorks only with the Allmacht-origin.§!" 
 
 # ORIGIN ARCANE RINGWORLD
 origin_arcane_ringworld: "£darkspace£Arcane"
