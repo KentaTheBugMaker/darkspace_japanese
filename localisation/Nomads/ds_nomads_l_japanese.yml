@@ -5,7 +5,7 @@
 ######## Menu Start
 
 ds_button_tt_manpower: "労働力"
-ds_button_tt_manpower_desc: "労働力 はNomad の £pop£ §YPop§!だ. Their upkeep depends on their §Yquantity§! and our §Yauthority§!. The §H月間成長数§! is §G+5§!, but it can be increased with §YTechnologies§!, §YTraditions§! and §YAscension Perks§!. \n\nThe growth will §Rstop§!, if Nomad £housing£§H住居§! is lower than §Y1§!.\nGrowth is temporarily §Rreduced§! while being §Rat war§! or after a §Rlost war§!§ . \n\nEvery populated planet has the §Ydecision§! §BRecruitment§! to turn £pop£ into Manpower. \n\n£opinion£ §EAll common technologies that improve £housing£住居 or £mod_pop_growth_speed£Pop Growth unlock also more §YNomad§!£housing£§Y住居§! or §YMonthly Growth (Manpower)§!."
+ds_button_tt_manpower_desc: "労働力 は流浪の民 の £pop£ §YPop§!だ. Their upkeep depends on their §Yquantity§! and our §Yauthority§!. The §H月間成長数§! is §G+5§!, but it can be increased with §YTechnologies§!, §YTraditions§! and §YAscension Perks§!. \n\nThe growth will §Rstop§!, if Nomad £housing£§H住居§! is lower than §Y1§!.\nGrowth is temporarily §Rreduced§! while being §Rat war§! or after a §Rlost war§!§ . \n\nEvery populated planet has the §Ydecision§! §BRecruitment§! to turn £pop£ into Manpower. \n\n£opinion£ §EAll common technologies that improve £housing£住居 or £mod_pop_growth_speed£Pop Growth unlock also more §YNomad§!£housing£§Y住居§! or §YMonthly Growth (Manpower)§!."
 ds_button_tt_production: "生産"
 ds_button_tt_production_desc: "§Y収入 & 維持費§! is shown in the §HGovernment Window§! as §Ymodifier§! and also visible in the §H流浪の民の管理§!. \n\n§RResource Deficits§! add a §Rmodifier§! to our empire for §Y30 days§! or longer, if the situation doesn't improve. \n\nNew §HRepeatable Technologies§! will show up, which increase our basic income. \n\n£opinion£ §EProduction & Upkeep Values for §Y1§! allocated Manpower: \n1*£energy£ §Hproduces§! §G+10§!£energy£ \n1*£minerals£ §Hproduces§! §G+6§!£minerals£ §R-1§!£energy£ \n1*£alloys£ §Hproduces§! §G+6§!£alloys£ §R-5§!£minerals£ \n1*£unity£ §Hproduces§! §G+8§!£unity£ §R-2§!£energy£ \n1*£ds_research£ §Hproduces§! §G+18§!£ds_research£ §R-5§!£energy£ \n1*£food£ §Hproduces§! §G+7§!£food£ §R-1§!£energy£ \n1*£consumer_goods£ §Hproduces§! §G+7§!£consumer_goods£ §R-3§!£minerals£ \n1*£volatile_motes£/£exotic_gases£/£rare_crystals£ §Hproduces§! §G+3§! §R-9§! £minerals£§!"
 ds_button_tt_ships: "船"
@@ -330,11 +330,11 @@ ap_ds_nomads_tier3_desc: "£ds_civic£§CDarkSpace§! £ds_civic£§CNomad Origi
 ap_ds_nomads_tier3_tooltip: "Unlocks §YTier 3§! §HNomad-Components§! to produce resources. \nOnly for the §YAlarai§! and §YArks§!.\n\n"
 
 ap_ds_nomads_planets: "Back To The Roots"
-ap_ds_nomads_planets_desc: "£ds_civic£§CDarkSpace§! £ds_civic£§CNomad Origin§! \nEven though we prefer the free space, conquered planets could become a very viable asset to ensure our power and the growth of our people."
+ap_ds_nomads_planets_desc: "£ds_civic£§CDarkSpace§! £ds_civic£§CNomad Origin§! \n私たちは自由な空間を好みますが、征服された惑星は、私たちの力と人々の成長を確実にするための非常に実行可能な資産になる可能性があります。"
 ap_ds_nomads_planets_effect: "§HUnlocks Policy:§! Nomad-Outposts \nEnables a more efficient use of planets and normal £pop£ Pops. \n\nAccepting this Ascension Perk §Rblocks§! the §Y6th§! §YColony-Module§! in the §Y流浪の民の管理§!."
 
 ap_ds_nomads_poplimit: "Boundless Horizons"
-ap_ds_nomads_poplimit_desc: "£ds_civic£§CDarkSpace§! £ds_civic£§CNomad Origin§! \nNew technologies vastly increase the quality of life in all aspects of living in space. Ships and stations become havens for everyone."
+ap_ds_nomads_poplimit_desc: "£ds_civic£§CDarkSpace§! £ds_civic£§CNomad Origin§! \n新しいテクノロジーは、宇宙での生活のあらゆる面で生活の質を大幅に向上させます。船やステーションはみんなの安らぎの場所になります。"
 ap_ds_nomads_poplimit_effect: "The §Y船員許容量§! limits the maximum amount of §HManpower§! a Nomad-Empire can grow."
 
 # Technologies
